@@ -1,0 +1,4289 @@
+{
+  "updated_at": "2026-05-09T14:38:01Z",
+  "models": [
+    {
+      "model_name": "Pareto Code Router",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": -7250000.0,
+      "output_price_cny": -7250000.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Body Builder (beta)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": -7250000.0,
+      "output_price_cny": -7250000.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Auto Router",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": -7250000.0,
+      "output_price_cny": -7250000.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "BaiLing",
+      "provider": "BaiLing",
+      "category": "domestic-official",
+      "series": "BaiLing",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Codex",
+      "provider": "Codex",
+      "category": "overseas-official",
+      "series": "Codex",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GitHub Copilot",
+      "provider": "GitHub Copilot",
+      "category": "overseas-official",
+      "series": "Copilot",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Llama 4 NIM",
+      "provider": "Nvidia",
+      "category": "overseas-official",
+      "series": "Llama",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Llama 3.1 70B NIM",
+      "provider": "Nvidia",
+      "category": "overseas-official",
+      "series": "Llama",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Mixtral 8x22B NIM",
+      "provider": "Nvidia",
+      "category": "overseas-official",
+      "series": "Mistral",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "inclusionAI: Ring-2.6-1T (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Baidu Qianfan: CoBuddy (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Owl Alpha",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Poolside: Laguna XS.2 (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Poolside: Laguna M.1 (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Baidu: Qianfan-OCR-Fast (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 4 26B A4B  (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 4 31B (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Lyria 3 Pro Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Lyria 3 Clip Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron 3 Super (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax M2.5 (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Free Models Router",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron Nano 9B V2 (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: gpt-oss-120b (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: gpt-oss-20b (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.5 Air (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Coder 480B A35B (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Venice: Uncensored (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.3 70B Instruct (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.2 3B Instruct (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Nous: Hermes 3 405B Instruct (free)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GLM-4 Flash",
+      "provider": "Zhipu GLM",
+      "category": "domestic-official",
+      "series": "GLM",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GLM-4 Air",
+      "provider": "Zhipu GLM",
+      "category": "domestic-official",
+      "series": "GLM",
+      "input_price_cny": 0,
+      "output_price_cny": 0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GLM-4 Plus",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "GLM",
+      "input_price_cny": 0.1,
+      "output_price_cny": 0.1,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GLM-4 Plus",
+      "provider": "Zhipu GLM",
+      "category": "domestic-official",
+      "series": "GLM",
+      "input_price_cny": 0.1,
+      "output_price_cny": 0.1,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "IBM: Granite 4.0 Micro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.12,
+      "output_price_cny": 0.8,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.1 8B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.14,
+      "output_price_cny": 0.36,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Nemo",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 0.14,
+      "output_price_cny": 0.22,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DouBao 1.5 Lite",
+      "provider": "DouBaoSeed",
+      "category": "domestic-official",
+      "series": "DouBao",
+      "input_price_cny": 0.15,
+      "output_price_cny": 0.58,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "DouBao 1.5-Vision",
+      "provider": "DouBaoSeed",
+      "category": "domestic-official",
+      "series": "DouBao",
+      "input_price_cny": 0.15,
+      "output_price_cny": 0.58,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.2 1B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.2,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen-Turbo",
+      "provider": "Bailian",
+      "category": "domestic-official",
+      "series": "Qwen",
+      "input_price_cny": 0.22,
+      "output_price_cny": 0.44,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "LiquidAI: LFM2-24B-A2B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.22,
+      "output_price_cny": 0.87,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: gpt-oss-20b",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 0.22,
+      "output_price_cny": 1.02,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen-Turbo",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.24,
+      "output_price_cny": 0.94,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Amazon: Nova Micro 1.0",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.25,
+      "output_price_cny": 1.02,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Cohere: Command R7B (12-2024)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.27,
+      "output_price_cny": 1.09,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: gpt-oss-120b",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 0.28,
+      "output_price_cny": 1.3,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5-9B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.29,
+      "output_price_cny": 1.09,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron Nano 9B V2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.29,
+      "output_price_cny": 1.16,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 3 4B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.29,
+      "output_price_cny": 0.58,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 3 12B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.29,
+      "output_price_cny": 0.94,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen2.5 7B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.29,
+      "output_price_cny": 0.72,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Sao10K: Llama 3 8B Lunaris",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.29,
+      "output_price_cny": 0.36,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3 8B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.29,
+      "output_price_cny": 0.29,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Arcee AI: Trinity Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.33,
+      "output_price_cny": 1.09,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Longcat",
+      "provider": "Longcat",
+      "category": "domestic-official",
+      "series": "Longcat",
+      "input_price_cny": 0.36,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "MiniMax M1-Lite",
+      "provider": "MiniMax",
+      "category": "domestic-official",
+      "series": "MiniMax",
+      "input_price_cny": 0.36,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "IBM: Granite 4.1 8B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.36,
+      "output_price_cny": 0.72,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.36,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5 Nano",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 0.36,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 8B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.36,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Small 3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 0.36,
+      "output_price_cny": 0.58,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Step-2-Lite",
+      "provider": "StepFun",
+      "category": "domestic-official",
+      "series": "StepFun",
+      "input_price_cny": 0.36,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Xiaomi MiMo",
+      "provider": "Xiaomi MiMo",
+      "category": "domestic-official",
+      "series": "MiMo",
+      "input_price_cny": 0.36,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.2 3B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.37,
+      "output_price_cny": 2.46,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 4 26B A4B ",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.43,
+      "output_price_cny": 2.39,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.7 Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.43,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 3n 4B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.43,
+      "output_price_cny": 0.87,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 14B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.43,
+      "output_price_cny": 1.74,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Amazon: Nova Lite 1.0",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.43,
+      "output_price_cny": 1.74,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MythoMax 13B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.43,
+      "output_price_cny": 0.43,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5-Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.47,
+      "output_price_cny": 1.89,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Microsoft: Phi 4",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.47,
+      "output_price_cny": 1.02,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Tencent: Hy3 preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.48,
+      "output_price_cny": 1.89,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "KAT-Coder",
+      "provider": "KAT-Coder",
+      "category": "proxy",
+      "series": "KAT",
+      "input_price_cny": 0.5,
+      "output_price_cny": 2.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Qwen-Coder",
+      "provider": "Bailian",
+      "category": "domestic-official",
+      "series": "Qwen",
+      "input_price_cny": 0.51,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Baidu: ERNIE 4.5 21B A3B Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.51,
+      "output_price_cny": 2.03,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Baidu: ERNIE 4.5 21B A3B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.51,
+      "output_price_cny": 2.03,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.51,
+      "output_price_cny": 1.96,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.51,
+      "output_price_cny": 0.72,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "ByteDance Seed: Seed 1.6 Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.54,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: gpt-oss-safeguard-20b",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 0.54,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Small 3.2 24B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 0.54,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.0 Flash Lite",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 0.54,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen-Plus",
+      "provider": "Bailian",
+      "category": "domestic-official",
+      "series": "Qwen",
+      "input_price_cny": 0.58,
+      "output_price_cny": 1.74,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "DouBao 1.5 Pro",
+      "provider": "DouBaoSeed",
+      "category": "domestic-official",
+      "series": "DouBao",
+      "input_price_cny": 0.58,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "inclusionAI: Ling-2.6-flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.58,
+      "output_price_cny": 1.74,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Microsoft: Phi 4 Mini Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.58,
+      "output_price_cny": 2.54,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 VL 8B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.58,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 30B A3B Thinking 2507",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.58,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 32B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.58,
+      "output_price_cny": 2.03,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 4 Scout",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.58,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 3 27B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.58,
+      "output_price_cny": 1.16,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen-Plus",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.58,
+      "output_price_cny": 1.74,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Nemotron 3 Super",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.65,
+      "output_price_cny": 3.26,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Tongyi DeepResearch 30B A3B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.65,
+      "output_price_cny": 3.26,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.65,
+      "output_price_cny": 7.98,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.65,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 30B A3B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.65,
+      "output_price_cny": 3.26,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Next 80B A3B Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.71,
+      "output_price_cny": 5.66,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Reka Edge",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.72,
+      "output_price_cny": 0.72,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "ByteDance Seed: Seed-2.0-Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "StepFun: Step 3.5 Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Xiaomi: MiMo-V2-Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Ministral 3 3B 2512",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 0.72,
+      "output_price_cny": 0.72,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Voxtral Small 24B 2507",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4 32B ",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.72,
+      "output_price_cny": 0.72,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "ByteDance: UI-TARS 7B ",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.72,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.5 Flash Lite",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Devstral Small 1.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4.1 Nano",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Reka Flash 3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.72,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.0 Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.3 70B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 0.72,
+      "output_price_cny": 2.32,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Gemini 2.0 Flash",
+      "provider": "Gemini Native",
+      "category": "overseas-official",
+      "series": "Gemini",
+      "input_price_cny": 0.73,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "MiniMax M1",
+      "provider": "MiniMax",
+      "category": "domestic-official",
+      "series": "MiniMax",
+      "input_price_cny": 0.73,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Step-2",
+      "provider": "StepFun",
+      "category": "domestic-official",
+      "series": "StepFun",
+      "input_price_cny": 0.73,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Step-1.5V",
+      "provider": "StepFun",
+      "category": "domestic-official",
+      "series": "StepFun",
+      "input_price_cny": 0.73,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GLM-Z1",
+      "provider": "Zhipu GLM",
+      "category": "domestic-official",
+      "series": "GLM",
+      "input_price_cny": 0.73,
+      "output_price_cny": 0.73,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 VL 32B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.75,
+      "output_price_cny": 3.02,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Coder Next",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.8,
+      "output_price_cny": 5.8,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral 7B Instruct v0.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 0.8,
+      "output_price_cny": 1.38,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 VL 8B Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.85,
+      "output_price_cny": 9.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 4 31B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.94,
+      "output_price_cny": 2.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 VL 30B A3B Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.94,
+      "output_price_cny": 11.31,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.94,
+      "output_price_cny": 3.77,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Nous: Hermes 4 70B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.94,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.5 Air",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 0.94,
+      "output_price_cny": 6.16,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Nex AGI: DeepSeek V3.1 Nex N1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 0.98,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen VL Plus",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 0.99,
+      "output_price_cny": 2.97,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V4 Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.02,
+      "output_price_cny": 2.03,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5-35B-A3B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.02,
+      "output_price_cny": 7.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Baidu: ERNIE 4.5 VL 28B A3B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.02,
+      "output_price_cny": 4.06,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Tencent: Hunyuan A13B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.02,
+      "output_price_cny": 4.13,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 1.02,
+      "output_price_cny": 1.02,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.08,
+      "output_price_cny": 10.84,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash",
+      "provider": "Gemini Native",
+      "category": "overseas-official",
+      "series": "Gemini",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.6 35B A3B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.09,
+      "output_price_cny": 7.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Small 4",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax M2.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.09,
+      "output_price_cny": 8.34,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Arcee AI: Trinity Large Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.09,
+      "output_price_cny": 3.26,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Upstage: Solar Pro 3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "EssentialAI: Rnj 1 Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.09,
+      "output_price_cny": 1.09,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Ministral 3 8B 2512",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 1.09,
+      "output_price_cny": 1.09,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "AllenAI: Olmo 3 32B Think",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.09,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V3.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.09,
+      "output_price_cny": 5.44,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 4 Maverick",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o-mini Search Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Cohere: Command R (08-2024)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o-mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 1.09,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "TheDrummer: Rocinante 12B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.23,
+      "output_price_cny": 3.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Arcee AI: Spotlight",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.3,
+      "output_price_cny": 1.3,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama Guard 4 12B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 1.3,
+      "output_price_cny": 1.3,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5-27B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.41,
+      "output_price_cny": 11.31,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Coder Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.41,
+      "output_price_cny": 7.07,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.4 Nano",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 1.45,
+      "output_price_cny": 9.06,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Ministral 3 14B 2512",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 1.45,
+      "output_price_cny": 1.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Prime Intellect: INTELLECT-3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.45,
+      "output_price_cny": 7.98,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 4.1 Fast",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.45,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 VL 235B A22B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.45,
+      "output_price_cny": 6.38,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 4 Fast",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.45,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok Code Fast 1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.45,
+      "output_price_cny": 10.88,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V3 0324",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.45,
+      "output_price_cny": 5.58,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Saba",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 1.45,
+      "output_price_cny": 4.35,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax-01",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.45,
+      "output_price_cny": 7.98,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Arcee AI: Trinity Large Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.59,
+      "output_price_cny": 6.16,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Coder 480B A35B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.59,
+      "output_price_cny": 13.05,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "LemonData",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.75,
+      "output_price_cny": 7.1,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "DDSHub",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.78,
+      "output_price_cny": 7.2,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.2 11B Vision Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 1.78,
+      "output_price_cny": 1.78,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "Micu",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.8,
+      "output_price_cny": 7.3,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Google: Gemini 3.1 Flash Lite",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 1.81,
+      "output_price_cny": 10.88,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.6 Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.81,
+      "output_price_cny": 10.88,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "ByteDance Seed: Seed-2.0-Lite",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.81,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Inception: Mercury 2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.81,
+      "output_price_cny": 5.44,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 3.1 Flash Lite Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 1.81,
+      "output_price_cny": 10.88,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "ByteDance Seed: Seed 1.6",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.81,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.1-Codex-Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 1.81,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5 Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 1.81,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.81,
+      "output_price_cny": 5.44,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude 3 Haiku",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 1.81,
+      "output_price_cny": 9.06,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V3.2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.83,
+      "output_price_cny": 2.74,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "CrazyRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.85,
+      "output_price_cny": 7.5,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax M2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 1.85,
+      "output_price_cny": 7.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "RightCode",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.88,
+      "output_price_cny": 7.7,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5-122B-A10B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.89,
+      "output_price_cny": 15.08,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5 Plus 2026-02-15",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.89,
+      "output_price_cny": 11.31,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 VL 235B A22B Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.89,
+      "output_price_cny": 18.85,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen Plus 0728 (thinking)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.89,
+      "output_price_cny": 5.66,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen Plus 0728",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.89,
+      "output_price_cny": 5.66,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen-Plus",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 1.89,
+      "output_price_cny": 5.66,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "优云智算",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.9,
+      "output_price_cny": 7.8,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "AiHubMix",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.95,
+      "output_price_cny": 7.9,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "Novita AI",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.95,
+      "output_price_cny": 7.95,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "DeepSeek",
+      "category": "domestic-official",
+      "series": "DeepSeek",
+      "input_price_cny": 1.96,
+      "output_price_cny": 7.98,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "DeepSeek V3-0324",
+      "provider": "DeepSeek",
+      "category": "domestic-official",
+      "series": "DeepSeek",
+      "input_price_cny": 1.96,
+      "output_price_cny": 7.98,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V3.2 Exp",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.96,
+      "output_price_cny": 2.97,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.96,
+      "output_price_cny": 6.89,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 1.96,
+      "output_price_cny": 7.98,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek V3",
+      "provider": "ModelScope",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 2.0,
+      "output_price_cny": 8.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Baidu: ERNIE 4.5 300B A47B ",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.03,
+      "output_price_cny": 7.98,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V3.2 Speciale",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 2.08,
+      "output_price_cny": 3.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax M2.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.1,
+      "output_price_cny": 6.89,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: R1 Distill Qwen 32B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 2.1,
+      "output_price_cny": 2.1,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "inclusionAI: Ling-2.6-1T",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Kwaipilot: KAT-Coder-Pro V2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax M2.7",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax M2-her",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.6V",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 6.52,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Amazon: Nova 2 Lite",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 2.17,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "TheDrummer: Cydonia 24B V4.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Codestral 2508",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 2.17,
+      "output_price_cny": 6.52,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.5 Flash",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 2.17,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 3 Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 3 Mini Beta",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 3.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Nous: Hermes 3 70B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.17,
+      "output_price_cny": 2.17,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Kimi K2-Turbo",
+      "provider": "Kimi",
+      "category": "domestic-official",
+      "series": "Kimi",
+      "input_price_cny": 2.18,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.6 27B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 2.32,
+      "output_price_cny": 23.2,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 2.32,
+      "output_price_cny": 6.45,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.6 Plus",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 2.36,
+      "output_price_cny": 14.14,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Small 3.1 24B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 2.54,
+      "output_price_cny": 4.06,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen2.5 72B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 2.61,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5 397B A17B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 2.83,
+      "output_price_cny": 16.96,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.6",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.83,
+      "output_price_cny": 13.77,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen-Max",
+      "provider": "Bailian",
+      "category": "domestic-official",
+      "series": "Qwen",
+      "input_price_cny": 2.9,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Qwen-Max-Latest",
+      "provider": "Bailian",
+      "category": "domestic-official",
+      "series": "Qwen",
+      "input_price_cny": 2.9,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Qwen-Max",
+      "provider": "ModelScope",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 2.9,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.5 Plus 2026-04-20",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 2.9,
+      "output_price_cny": 17.4,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Xiaomi: MiMo-V2.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.9,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Xiaomi: MiMo-V2-Omni",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.9,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.7",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.9,
+      "output_price_cny": 12.69,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Devstral 2 2512",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 2.9,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MoonshotAI: Kimi K2 0905",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.9,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Medium 3.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 2.9,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Devstral Medium",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 2.9,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MiniMax: MiniMax M1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.9,
+      "output_price_cny": 15.95,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Medium 3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 2.9,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4.1 Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 2.9,
+      "output_price_cny": 11.6,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "TheDrummer: UnslopNemo 12B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 2.9,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3.1 70B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 2.9,
+      "output_price_cny": 2.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen-Max",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 2.9,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Baidu: ERNIE 4.5 VL 424B A47B ",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 3.04,
+      "output_price_cny": 9.06,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: DeepSeek V4 Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 3.15,
+      "output_price_cny": 6.31,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MoonshotAI: Kimi K2.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 3.19,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "ReMM SLERP 13B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 3.26,
+      "output_price_cny": 4.71,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 235B A22B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 3.3,
+      "output_price_cny": 13.19,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Llama Guard 3 8B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 3.48,
+      "output_price_cny": 0.22,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google Gemini Flash Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 3.62,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 3.62,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 3 Flash Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 3.62,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Large 3 2512",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 3.62,
+      "output_price_cny": 10.88,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: R1 0528",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 3.62,
+      "output_price_cny": 15.59,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Arcee AI: Coder Large",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 3.62,
+      "output_price_cny": 5.8,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-3.5 Turbo",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 3.62,
+      "output_price_cny": 10.88,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Kimi K2",
+      "provider": "Kimi",
+      "category": "domestic-official",
+      "series": "Kimi",
+      "input_price_cny": 3.63,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Kimi K2",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Kimi",
+      "input_price_cny": 3.63,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Meta: Llama 3 70B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 3.7,
+      "output_price_cny": 5.37,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen VL Max",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 3.77,
+      "output_price_cny": 15.08,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek R1",
+      "provider": "优云智算",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 3.8,
+      "output_price_cny": 15.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek R1",
+      "provider": "DeepSeek",
+      "category": "domestic-official",
+      "series": "DeepSeek",
+      "input_price_cny": 3.99,
+      "output_price_cny": 15.88,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "TheDrummer: Skyfall 36B V2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 3.99,
+      "output_price_cny": 5.8,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek R1",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 3.99,
+      "output_price_cny": 15.88,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MoonshotAI: Kimi K2 0711",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.13,
+      "output_price_cny": 16.67,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.35,
+      "output_price_cny": 13.92,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Writer: Palmyra X5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.35,
+      "output_price_cny": 43.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT Audio Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 4.35,
+      "output_price_cny": 17.4,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MoonshotAI: Kimi K2 Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.35,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.5V",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.35,
+      "output_price_cny": 13.05,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 4.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.35,
+      "output_price_cny": 15.95,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "WizardLM-2 8x22B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.5,
+      "output_price_cny": 4.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Coder Plus",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 4.71,
+      "output_price_cny": 23.56,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Sao10K: Llama 3.3 Euryale 70B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 4.71,
+      "output_price_cny": 5.44,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemma 2 27B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.71,
+      "output_price_cny": 4.71,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen2.5 Coder 32B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 4.79,
+      "output_price_cny": 7.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "AionLabs: Aion-1.0-Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.07,
+      "output_price_cny": 10.15,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: R1 Distill Llama 70B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 5.07,
+      "output_price_cny": 5.8,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "DeepSeek: R1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "DeepSeek",
+      "input_price_cny": 5.07,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI GPT Mini Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 5.44,
+      "output_price_cny": 32.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MoonshotAI Kimi Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.44,
+      "output_price_cny": 25.38,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "MoonshotAI: Kimi K2.6",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.44,
+      "output_price_cny": 25.38,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.4 Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 5.44,
+      "output_price_cny": 32.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Arcee AI: Virtuoso Large",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.44,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mancer: Weaver (alpha)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.44,
+      "output_price_cny": 7.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Max Thinking",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 5.66,
+      "output_price_cny": 28.27,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3 Max",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 5.66,
+      "output_price_cny": 28.27,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "AWS Bedrock",
+      "category": "overseas-official",
+      "series": "Claude",
+      "input_price_cny": 5.8,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "Claude Official",
+      "category": "overseas-official",
+      "series": "Claude",
+      "input_price_cny": 5.8,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "DMXAPI",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 5.8,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "AionLabs: Aion-2.0",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.8,
+      "output_price_cny": 11.6,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Morph: Morph V3 Fast",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.8,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 5.8,
+      "output_price_cny": 8.7,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "AionLabs: Aion-RP 1.0 (8B)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.8,
+      "output_price_cny": 11.6,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Amazon: Nova Pro 1.0",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 5.8,
+      "output_price_cny": 23.2,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude 3.5 Haiku",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 5.8,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 5.8,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "TheRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 5.8,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "Novita AI",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 5.85,
+      "output_price_cny": 29.2,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "AiHubMix",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 5.9,
+      "output_price_cny": 29.5,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "胜算云",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 5.9,
+      "output_price_cny": 29.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "provider": "ModelScope",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 6.0,
+      "output_price_cny": 30.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Relace: Relace Apply 3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 6.16,
+      "output_price_cny": 9.06,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Switchpoint Router",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 6.16,
+      "output_price_cny": 24.65,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 6.16,
+      "output_price_cny": 6.16,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Morph: Morph V3 Large",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 6.52,
+      "output_price_cny": 13.77,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Arcee AI: Maestro Reasoning",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 6.52,
+      "output_price_cny": 23.93,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic Claude Haiku Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 7.25,
+      "output_price_cny": 36.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Xiaomi: MiMo-V2.5-Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 7.25,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Xiaomi: MiMo-V2-Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 7.25,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Relace: Relace Search",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 7.25,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Haiku 4.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 7.25,
+      "output_price_cny": 36.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Nous: Hermes 4 405B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 7.25,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Perplexity: Sonar",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 7.25,
+      "output_price_cny": 7.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Nous: Hermes 3 405B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 7.25,
+      "output_price_cny": 7.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 7.25,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen3.6 Max Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 7.54,
+      "output_price_cny": 45.24,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Qwen: Qwen-Max ",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Qwen",
+      "input_price_cny": 7.54,
+      "output_price_cny": 30.16,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 5.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 7.61,
+      "output_price_cny": 25.38,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o4 Mini High",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 7.98,
+      "output_price_cny": 31.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o4 Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 7.98,
+      "output_price_cny": 31.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o3 Mini High",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 7.98,
+      "output_price_cny": 31.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o3 Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 7.98,
+      "output_price_cny": 31.9,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 5V Turbo",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 8.7,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Z.ai: GLM 5 Turbo",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 8.7,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Gemini 2.5 Pro",
+      "provider": "Gemini Native",
+      "category": "overseas-official",
+      "series": "Gemini",
+      "input_price_cny": 9.06,
+      "output_price_cny": 36.25,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "xAI: Grok 4.3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 9.06,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 4.20",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 9.06,
+      "output_price_cny": 18.12,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.1-Codex-Max",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Deep Cogito: Cogito v2.1 671B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 9.06,
+      "output_price_cny": 9.06,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.1 Chat",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.1-Codex",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5 Codex",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5 Chat",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.5 Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.5 Pro Preview 06-05",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 2.5 Pro Preview 05-06",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 9.06,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Gemini 2.5 Pro",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 9.06,
+      "output_price_cny": 36.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Sao10k: Llama 3 Euryale 70B v2.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 10.73,
+      "output_price_cny": 10.73,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mistral Medium 3.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 10.88,
+      "output_price_cny": 54.38,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 10.88,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.3 Chat",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 12.69,
+      "output_price_cny": 101.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.3-Codex",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 12.69,
+      "output_price_cny": 101.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.2-Codex",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 12.69,
+      "output_price_cny": 101.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.2 Chat",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 12.69,
+      "output_price_cny": 101.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 12.69,
+      "output_price_cny": 101.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google Gemini Pro Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 14.5,
+      "output_price_cny": 87.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 4.20 Multi-Agent",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 14.5,
+      "output_price_cny": 43.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 14.5,
+      "output_price_cny": 87.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Gemini 3.1 Pro Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 14.5,
+      "output_price_cny": 87.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Gemini",
+      "input_price_cny": 14.5,
+      "output_price_cny": 87.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o4 Mini Deep Research",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 14.5,
+      "output_price_cny": 58.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "AI21: Jamba Large 1.7",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 14.5,
+      "output_price_cny": 58.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 14.5,
+      "output_price_cny": 58.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 14.5,
+      "output_price_cny": 58.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Perplexity: Sonar Reasoning Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 14.5,
+      "output_price_cny": 58.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Perplexity: Sonar Deep Research",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 14.5,
+      "output_price_cny": 58.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral Large 2411",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 14.5,
+      "output_price_cny": 43.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral Large 2407",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 14.5,
+      "output_price_cny": 43.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Pixtral Large 2411",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 14.5,
+      "output_price_cny": 43.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral: Mixtral 8x22B Instruct",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 14.5,
+      "output_price_cny": 43.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Mistral Large",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Mistral",
+      "input_price_cny": 14.5,
+      "output_price_cny": 43.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "LionCCAPI",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 16.0,
+      "output_price_cny": 64.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "AICoding",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 16.8,
+      "output_price_cny": 67.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "AICodeMirror",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 17.0,
+      "output_price_cny": 68.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "AIGoCode",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 17.5,
+      "output_price_cny": 70.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "AiHubMix",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.0,
+      "output_price_cny": 72.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "Cubence",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.0,
+      "output_price_cny": 72.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "TheRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.0,
+      "output_price_cny": 72.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "Novita AI",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.1,
+      "output_price_cny": 72.4,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "AWS Bedrock",
+      "category": "overseas-official",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.4",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT Audio",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Amazon: Nova Premier 1.0",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 18.12,
+      "output_price_cny": 90.62,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5 Image Mini",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 14.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o Audio",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Cohere: Command A",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o Search Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o (2024-11-20)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Inflection: Inflection 3 Productivity",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Inflection: Inflection 3 Pi",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Cohere: Command R+ (08-2024)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o (2024-08-06)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.12,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "DMXAPI",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.13,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "GPT-4o",
+      "provider": "胜算云",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 18.5,
+      "output_price_cny": 74.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "AIGoCode",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.0,
+      "output_price_cny": 106.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "PackyCode",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.5,
+      "output_price_cny": 107.5,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "优云智算",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.5,
+      "output_price_cny": 107.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "AWS Bedrock",
+      "category": "overseas-official",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Claude Official",
+      "category": "overseas-official",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Anthropic Claude Sonnet Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Sonnet 4.6",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Perplexity: Sonar Pro Search",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Sonnet 4.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 4",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 3",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Sonnet 4",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "xAI: Grok 3 Beta",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Perplexity: Sonar Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude 3.7 Sonnet",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude 3.7 Sonnet (thinking)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Sao10K: Llama 3.1 70B Hanami x1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Llama",
+      "input_price_cny": 21.75,
+      "output_price_cny": 21.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Magnum v4 72B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 21.75,
+      "output_price_cny": 36.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-3.5 Turbo 16k",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 21.75,
+      "output_price_cny": 29.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.75,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "DMXAPI",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.8,
+      "output_price_cny": 109.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Novita AI",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 21.9,
+      "output_price_cny": 109.5,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "ModelScope",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 22.0,
+      "output_price_cny": 110.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "TheRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 22.0,
+      "output_price_cny": 110.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "PIPELLM",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 22.2,
+      "output_price_cny": 111.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "AiHubMix",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 22.5,
+      "output_price_cny": 111.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "胜算云",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 23.0,
+      "output_price_cny": 112.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Goliath 120B",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 27.19,
+      "output_price_cny": 54.38,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "AionLabs: Aion-1.0",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 29.0,
+      "output_price_cny": 58.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT Chat Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 36.25,
+      "output_price_cny": 217.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI GPT Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 36.25,
+      "output_price_cny": 217.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 36.25,
+      "output_price_cny": 217.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus Latest",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 36.25,
+      "output_price_cny": 181.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4.7",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 36.25,
+      "output_price_cny": 181.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4.6",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 36.25,
+      "output_price_cny": 181.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4.5",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 36.25,
+      "output_price_cny": 181.25,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4o (2024-05-13)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 36.25,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.4 Image 2",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 58.0,
+      "output_price_cny": 108.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5 Image",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 72.5,
+      "output_price_cny": 72.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o3 Deep Research",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 72.5,
+      "output_price_cny": 290.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4 Turbo",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 72.5,
+      "output_price_cny": 217.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4 Turbo Preview",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 72.5,
+      "output_price_cny": 217.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4 Turbo (older v1106)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 72.5,
+      "output_price_cny": 217.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "LionCCAPI",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 99.0,
+      "output_price_cny": 498.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "DDSHub",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 100.0,
+      "output_price_cny": 505.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "E-FlowCode",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 100.0,
+      "output_price_cny": 500.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "CTok.ai",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 101.0,
+      "output_price_cny": 510.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "SSSAiCode",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 102.0,
+      "output_price_cny": 515.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "CrazyRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 103.0,
+      "output_price_cny": 520.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "AICoding",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 104.0,
+      "output_price_cny": 525.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "AICodeMirror",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 105.0,
+      "output_price_cny": 530.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "Cubence",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 105.0,
+      "output_price_cny": 530.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "AIGoCode",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 106.0,
+      "output_price_cny": 535.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "RightCode",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 107.0,
+      "output_price_cny": 538.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "PackyCode",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 108.0,
+      "output_price_cny": 540.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "优云智算",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 108.0,
+      "output_price_cny": 540.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "AWS Bedrock",
+      "category": "overseas-official",
+      "series": "Claude",
+      "input_price_cny": 108.75,
+      "output_price_cny": 543.75,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "Claude Official",
+      "category": "overseas-official",
+      "series": "Claude",
+      "input_price_cny": 108.75,
+      "output_price_cny": 543.75,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5 Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 108.75,
+      "output_price_cny": 870.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4.1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 108.75,
+      "output_price_cny": 543.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 108.75,
+      "output_price_cny": 543.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o1",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 108.75,
+      "output_price_cny": 435.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "SiliconFlow",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 108.75,
+      "output_price_cny": 543.75,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "DMXAPI",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 109.0,
+      "output_price_cny": 548.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "Novita AI",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 109.5,
+      "output_price_cny": 546.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "ModelScope",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 110.0,
+      "output_price_cny": 545.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "TheRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 110.0,
+      "output_price_cny": 548.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "PIPELLM",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 111.0,
+      "output_price_cny": 552.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "AiHubMix",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 112.0,
+      "output_price_cny": 550.0,
+      "last_updated": "2026-05-09T14:37:58Z"
+    },
+    {
+      "model_name": "Claude Opus 4.7",
+      "provider": "胜算云",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 115.0,
+      "output_price_cny": 560.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o3 Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 145.0,
+      "output_price_cny": 580.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.2 Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 152.25,
+      "output_price_cny": 1218.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.5 Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 217.5,
+      "output_price_cny": 1305.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "Anthropic: Claude Opus 4.6 (Fast)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Claude",
+      "input_price_cny": 217.5,
+      "output_price_cny": 1087.5,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-5.4 Pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 217.5,
+      "output_price_cny": 1305.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4 (older v0314)",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 217.5,
+      "output_price_cny": 435.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: GPT-4",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 217.5,
+      "output_price_cny": 435.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    },
+    {
+      "model_name": "OpenAI: o1-pro",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "GPT",
+      "input_price_cny": 1087.5,
+      "output_price_cny": 4350.0,
+      "last_updated": "2026-05-09T14:38:01Z"
+    }
+  ]
+}

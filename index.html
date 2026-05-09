@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LLM API 定价中心 — 实时大模型API价格对比</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Noto+Sans+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== CSS Custom Properties ===== */
+:root {
+  --bg: #f5f5f7;
+  --surface: rgba(255,255,255,0.78);
+  --surface-solid: #ffffff;
+  --border: rgba(0,0,0,0.06);
+  --border-glass: rgba(255,255,255,0.25);
+  --text: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --text-tertiary: #aeaeb2;
+  --blue: #0071e3;
+  --blue-light: #40a9ff;
+  --purple: #af52de;
+  --pink: #ff2d55;
+  --orange: #ff9500;
+  --teal: #5ac8fa;
+  --green: #34c759;
+  --red-acc: #ff3b30;
+  --amber: #ff9500;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.10);
+  --shadow-xl: 0 20px 60px rgba(0,0,0,0.12);
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --spring-bouncy: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-out: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* ===== Reset & Base ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body {
+  font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh; overflow-x: hidden;
+}
+
+/* ===== Fluid Gradient Background ===== */
+.bg-canvas {
+  position: fixed; inset: 0; z-index: -2; pointer-events: none;
+}
+.bg-orbs { position: absolute; inset: 0; }
+.bg-orb {
+  position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.5;
+  animation: orbDrift 20s ease-in-out infinite;
+}
+.bg-orb:nth-child(1) {
+  width: 600px; height: 600px; top: -200px; left: -100px;
+  background: radial-gradient(circle, rgba(0,122,255,0.25) 0%, transparent 70%);
+  animation-delay: 0s;
+}
+.bg-orb:nth-child(2) {
+  width: 500px; height: 500px; top: 40%; right: -150px;
+  background: radial-gradient(circle, rgba(175,82,222,0.25) 0%, transparent 70%);
+  animation-delay: -7s;
+}
+.bg-orb:nth-child(3) {
+  width: 400px; height: 400px; bottom: -100px; left: 30%;
+  background: radial-gradient(circle, rgba(255,149,0,0.2) 0%, transparent 70%);
+  animation-delay: -14s;
+}
+.bg-orb:nth-child(4) {
+  width: 350px; height: 350px; top: 60%; left: 60%;
+  background: radial-gradient(circle, rgba(90,200,250,0.18) 0%, transparent 70%);
+  animation-delay: -3s;
+}
+@keyframes orbDrift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(60px, -40px) scale(1.08); }
+  50% { transform: translate(-30px, 30px) scale(0.94); }
+  75% { transform: translate(-50px, -20px) scale(1.05); }
+}
+
+/* Grain overlay */
+.bg-grain {
+  position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ===== Container ===== */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 28px; }
+
+/* ===== Hero ===== */
+.hero { padding: 80px 0 36px; text-align: center; position: relative; }
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(255,255,255,0.6); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-glass); border-radius: 100px;
+  padding: 5px 18px; font-size: 12px; font-weight: 600;
+  color: var(--blue); letter-spacing: 0.8px; margin-bottom: 24px;
+  animation: fadeSlideUp 0.8s var(--spring) both;
+}
+.hero-eyebrow .live-dot { width: 7px; height: 7px; background: #34c759; border-radius: 50%; animation: livePulse 2s ease-in-out infinite; }
+@keyframes livePulse { 0%,100% { opacity: 1; box-shadow: 0 0 0 0 rgba(52,199,89,0.5); } 50% { opacity: 0.5; box-shadow: 0 0 0 8px rgba(52,199,89,0); } }
+
+.hero h1 {
+  font-size: 64px; font-weight: 800; letter-spacing: -2px; line-height: 1.1;
+  color: #1d1d1f; animation: fadeSlideUp 0.8s 0.1s var(--spring) both;
+}
+.hero h1 .gradient-text {
+  background: linear-gradient(135deg, var(--blue) 0%, var(--purple) 50%, var(--pink) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%; animation: gradientShift 4s ease infinite;
+}
+@keyframes gradientShift { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+
+.hero-subtitle {
+  font-size: 18px; color: var(--text-secondary); margin-top: 12px;
+  max-width: 540px; margin-left: auto; margin-right: auto;
+  animation: fadeSlideUp 0.8s 0.2s var(--spring) both;
+}
+.hero-update-badge {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 20px;
+  font-size: 13px; color: var(--text-secondary); font-weight: 500;
+  background: rgba(255,255,255,0.5); backdrop-filter: blur(12px);
+  border-radius: 100px; padding: 6px 16px;
+  animation: fadeSlideUp 0.8s 0.3s var(--spring) both;
+}
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Stats Row ===== */
+.stats-row {
+  display: flex; justify-content: center; gap: 48px;
+  margin-top: 36px;
+  animation: fadeSlideUp 0.8s 0.35s var(--spring) both;
+}
+.stat-item { text-align: center; }
+.stat-value {
+  font-size: 36px; font-weight: 800; color: #1d1d1f;
+  letter-spacing: -1.5px; line-height: 1;
+}
+.stat-label { font-size: 13px; color: var(--text-tertiary); margin-top: 4px; font-weight: 500; }
+.stat-divider { width: 1px; background: #e5e5ea; align-self: stretch; }
+
+/* ===== Filter Bar ===== */
+.filter-bar {
+  position: sticky; top: 20px; z-index: 100;
+  animation: fadeSlideUp 0.8s 0.4s var(--spring) both;
+}
+.filter-inner {
+  background: rgba(255,255,255,0.72); backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.5); border-radius: var(--radius-lg);
+  padding: 14px 18px; box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+}
+.filter-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+.search-wrap {
+  flex: 1; min-width: 200px; display: flex; align-items: center; gap: 10px;
+  background: rgba(0,0,0,0.03); border-radius: var(--radius);
+  padding: 10px 16px; border: 1.5px solid transparent;
+  transition: all 0.3s var(--spring);
+}
+.search-wrap:focus-within { border-color: var(--blue); background: white; box-shadow: 0 0 0 4px rgba(0,122,255,0.1); }
+.search-wrap svg { flex-shrink: 0; color: var(--text-tertiary); transition: color 0.3s; }
+.search-wrap:focus-within svg { color: var(--blue); }
+.search-wrap input {
+  flex: 1; border: none; outline: none; background: transparent;
+  font-family: 'Inter', 'Noto Sans SC', sans-serif; font-size: 14px; color: var(--text);
+}
+.search-wrap input::placeholder { color: var(--text-tertiary); }
+
+.filter-select {
+  padding: 10px 36px 10px 14px; border: 1.5px solid rgba(0,0,0,0.08);
+  border-radius: var(--radius); font-family: inherit; font-size: 13px; font-weight: 500;
+  color: var(--text); background: rgba(255,255,255,0.6); cursor: pointer;
+  outline: none; appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%238e8e93' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 12px center;
+  transition: all 0.3s var(--spring);
+}
+.filter-select:focus { border-color: var(--blue); box-shadow: 0 0 0 4px rgba(0,122,255,0.1); }
+
+.sort-btn {
+  display: flex; align-items: center; gap: 6px; padding: 10px 16px;
+  border: 1.5px solid rgba(0,0,0,0.08); border-radius: var(--radius);
+  font-family: inherit; font-size: 13px; font-weight: 500; color: var(--text);
+  background: rgba(255,255,255,0.6); cursor: pointer;
+  transition: all 0.3s var(--spring); white-space: nowrap;
+}
+.sort-btn:hover { background: white; border-color: var(--blue); }
+.sort-btn svg { transition: transform 0.3s var(--spring); }
+
+/* Series Tags */
+.series-tags { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.series-tag {
+  padding: 6px 16px; border-radius: 100px; font-size: 12px; font-weight: 600;
+  cursor: pointer; transition: all 0.3s var(--spring); border: 1.5px solid transparent;
+  background: rgba(255,255,255,0.5); color: var(--text-secondary);
+  user-select: none; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+.series-tag:hover { background: white; color: var(--text); transform: translateY(-1px); box-shadow: var(--shadow); }
+.series-tag.active { background: var(--blue); color: white; border-color: var(--blue); box-shadow: 0 2px 12px rgba(0,122,255,0.3); }
+
+/* Color-coded series tags */
+.series-tag[data-series="Claude"]:not(.active):hover { border-color: #d4a574; color: #8b6914; }
+.series-tag[data-series="GPT"]:not(.active):hover { border-color: #74b9d4; color: #0d7377; }
+.series-tag[data-series="Gemini"]:not(.active):hover { border-color: #74d4b9; color: #0d7377; }
+.series-tag[data-series="DeepSeek"]:not(.active):hover { border-color: #a4b4d4; color: #2563eb; }
+.series-tag[data-series="Qwen"]:not(.active):hover { border-color: #c4b4d4; color: #7c3aed; }
+.series-tag[data-series="GLM"]:not(.active):hover { border-color: #d4b4c4; color: #be185d; }
+
+/* ===== Table Section ===== */
+.table-section { padding: 24px 0 80px; }
+.table-card {
+  background: rgba(255,255,255,0.75); backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.5); border-radius: var(--radius-xl);
+  overflow: hidden; box-shadow: 0 4px 32px rgba(0,0,0,0.07);
+  animation: fadeSlideUp 0.8s 0.5s var(--spring) both;
+}
+
+.table-header-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 24px; border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.result-count { font-size: 13px; color: var(--text-tertiary); font-weight: 500; }
+.result-count strong { color: var(--text); font-weight: 700; }
+
+.table-scroll { overflow-x: auto; }
+.table-scroll::-webkit-scrollbar { height: 4px; }
+.table-scroll::-webkit-scrollbar-track { background: transparent; }
+.table-scroll::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.1); border-radius: 2px; }
+
+table { width: 100%; border-collapse: collapse; }
+thead th {
+  font-size: 11px; font-weight: 700; color: var(--text-tertiary);
+  text-transform: uppercase; letter-spacing: 0.8px; padding: 14px 24px;
+  text-align: left; cursor: pointer; user-select: none;
+  transition: color 0.2s; white-space: nowrap;
+  background: rgba(0,0,0,0.015); border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+thead th:hover { color: var(--text); }
+thead th .sort-arrow { display: inline-block; margin-left: 3px; font-size: 9px; opacity: 0; transition: all 0.2s; }
+thead th:hover .sort-arrow { opacity: 0.4; }
+thead th.sorted .sort-arrow { opacity: 1; color: var(--blue); }
+
+tbody td {
+  padding: 15px 24px; font-size: 13px; border-bottom: 1px solid rgba(0,0,0,0.025);
+  transition: all 0.2s;
+}
+tbody tr {
+  transition: all 0.25s var(--spring);
+  animation: rowEnter 0.5s var(--spring) both;
+}
+tbody tr:hover { background: rgba(0,122,255,0.03); transform: scale(1.002); }
+tbody tr:last-child td { border-bottom: none; }
+@keyframes rowEnter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.model-cell { display: flex; align-items: center; gap: 10px; }
+.model-icon {
+  width: 32px; height: 32px; border-radius: var(--radius-sm);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700; color: white; flex-shrink: 0;
+}
+.model-name { font-weight: 700; color: #1d1d1f; font-size: 13px; }
+.model-name small { font-weight: 400; color: var(--text-tertiary); display: block; font-size: 11px; }
+
+.provider-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; color: var(--blue); font-weight: 600;
+}
+.freshness-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+.freshness-dot.green { background: #34c759; box-shadow: 0 0 8px rgba(52,199,89,0.5); animation: dotGlow 2s ease-in-out infinite; }
+.freshness-dot.amber { background: #ff9500; box-shadow: 0 0 6px rgba(255,149,0,0.4); }
+.freshness-dot.gray { background: #aeaeb2; }
+@keyframes dotGlow { 0%,100% { box-shadow: 0 0 4px rgba(52,199,89,0.3); } 50% { box-shadow: 0 0 12px rgba(52,199,89,0.7); } }
+
+.price-cell { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 13px; }
+.price-free { color: #34c759; }
+.price-low { color: #0071e3; }
+.price-mid { color: #1d1d1f; }
+.price-high { color: #ff9500; }
+.price-premium { color: #ff3b30; }
+
+.freshness-cell { font-size: 12px; color: var(--text-tertiary); font-weight: 500; white-space: nowrap; }
+
+/* Category pills */
+.cat-pill {
+  display: inline-block; padding: 2px 8px; border-radius: 4px;
+  font-size: 10px; font-weight: 600; letter-spacing: 0.3px;
+}
+.cat-pill.overseas { background: rgba(0,122,255,0.08); color: var(--blue); }
+.cat-pill.domestic { background: rgba(52,199,89,0.08); color: #248a3d; }
+.cat-pill.proxy { background: rgba(175,82,222,0.08); color: var(--purple); }
+
+/* ===== Empty State ===== */
+.empty-state {
+  text-align: center; padding: 72px 20px; color: var(--text-tertiary);
+}
+.empty-state svg { opacity: 0.2; margin-bottom: 16px; }
+.empty-state p { font-size: 14px; font-weight: 500; }
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center; padding: 36px 24px 60px;
+  color: var(--text-tertiary); font-size: 12px; font-weight: 500;
+  border-top: 1px solid rgba(0,0,0,0.04);
+}
+.footer a { color: var(--blue); text-decoration: none; }
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero { padding: 48px 0 24px; }
+  .hero h1 { font-size: 36px; letter-spacing: -1px; }
+  .hero-subtitle { font-size: 15px; }
+  .stats-row { gap: 24px; }
+  .stat-value { font-size: 26px; }
+  .filter-row { flex-direction: column; }
+  .search-wrap { min-width: 100%; }
+  .series-tags { gap: 6px; }
+  .series-tag { font-size: 11px; padding: 5px 12px; }
+  thead th, tbody td { padding: 10px 14px; font-size: 11px; }
+}
+
+/* ===== Scroll Reveal ===== */
+.reveal { opacity: 0; transform: translateY(30px); transition: all 0.7s var(--spring); }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* ===== Glow on price update ===== */
+@keyframes priceFlash {
+  0% { background: rgba(52,199,89,0.2); }
+  100% { background: transparent; }
+}
+.flash-update { animation: priceFlash 1.5s var(--ease-out); }
+</style>
+</head>
+<body>
+
+<div class="bg-canvas"><div class="bg-orbs">
+  <div class="bg-orb"></div><div class="bg-orb"></div>
+  <div class="bg-orb"></div><div class="bg-orb"></div>
+</div></div>
+<div class="bg-grain"></div>
+
+<main class="container">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-eyebrow"><span class="live-dot"></span>实时追踪 50+ 平台 · 300+ 模型</div>
+    <h1>大模型<span class="gradient-text">API</span>定价中心</h1>
+    <p class="hero-subtitle">一站式实时对比主流大模型 API 价格。不再奔波于各家官网，所有价格一目了然。</p>
+    <div class="hero-update-badge" id="heroUpdateBadge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <span id="heroUpdateText">加载中...</span>
+    </div>
+    <div class="stats-row">
+      <div class="stat-item"><div class="stat-value" id="stat-providers">--</div><div class="stat-label">接入平台</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><div class="stat-value" id="stat-models">--</div><div class="stat-label">收录模型</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><div class="stat-value" id="stat-series">--</div><div class="stat-label">模型系列</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><div class="stat-value" id="stat-freshness">--</div><div class="stat-label">数据新鲜度</div></div>
+    </div>
+  </section>
+
+  <!-- ===== Filter Bar ===== -->
+  <div class="filter-bar">
+    <div class="filter-inner">
+      <div class="filter-row">
+        <div class="search-wrap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input type="text" id="searchInput" placeholder="搜索模型名、提供商或系列..." autocomplete="off">
+        </div>
+        <select class="filter-select" id="categoryFilter">
+          <option value="all">全部平台</option>
+          <option value="overseas-official">海外官方</option>
+          <option value="domestic-official">国内官方</option>
+          <option value="proxy">代理平台</option>
+        </select>
+        <button class="sort-btn" id="sortBtn">
+          <span id="sortLabel">价格从低到高</span>
+          <svg width="10" height="10" viewBox="0 0 10 10" id="sortIcon"><path d="M5 1L2 5h6L5 1Z" fill="currentColor"/></svg>
+        </button>
+      </div>
+      <div class="series-tags" id="seriesTags"></div>
+    </div>
+  </div>
+
+  <!-- ===== Table ===== -->
+  <section class="table-section">
+    <div class="table-card">
+      <div class="table-header-bar">
+        <span class="result-count" id="resultCount">共 <strong>--</strong> 条记录</span>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th data-col="model_name" style="width:24%">模型名称 <span class="sort-arrow">↕</span></th>
+              <th data-col="series" style="width:12%">系列 <span class="sort-arrow">↕</span></th>
+              <th data-col="provider" style="width:18%">提供商 <span class="sort-arrow">↕</span></th>
+              <th data-col="input_price_cny" style="width:14%">输入 ¥/1M tok<span class="sort-arrow">↕</span></th>
+              <th data-col="output_price_cny" style="width:14%">输出 ¥/1M tok<span class="sort-arrow">↕</span></th>
+              <th data-col="last_updated" style="width:10%">数据更新 <span class="sort-arrow">↕</span></th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footerInfo">
+    数据由自动化爬虫每日更新 · 价格单位：人民币 (¥) · 仅供参考，以官方页面为准
+  </footer>
+
+</main>
+
+<script>
+// ===== Color palette for model icons =====
+const SERIES_COLORS = {
+  'Claude':     { bg: '#d4a574', fg: '#5c3d1a' },
+  'GPT':        { bg: '#10a37f', fg: '#ffffff' },
+  'Gemini':     { bg: '#4285f4', fg: '#ffffff' },
+  'DeepSeek':   { bg: '#2563eb', fg: '#ffffff' },
+  'Qwen':       { bg: '#7c3aed', fg: '#ffffff' },
+  'GLM':        { bg: '#be185d', fg: '#ffffff' },
+  'Llama':      { bg: '#0891b2', fg: '#ffffff' },
+  'Kimi':       { bg: '#18181b', fg: '#ffffff' },
+  'MiniMax':    { bg: '#ea580c', fg: '#ffffff' },
+  'Mistral':    { bg: '#f59e0b', fg: '#ffffff' },
+  'DouBao':     { bg: '#00d4aa', fg: '#ffffff' },
+  'StepFun':    { bg: '#6366f1', fg: '#ffffff' },
+  'Grok':       { bg: '#1d1d1f', fg: '#ffffff' },
+  'Longcat':    { bg: '#ec4899', fg: '#ffffff' },
+  'MiMo':       { bg: '#f97316', fg: '#ffffff' },
+  'BaiLing':    { bg: '#84cc16', fg: '#ffffff' },
+  'KAT':        { bg: '#14b8a6', fg: '#ffffff' },
+  'Copilot':    { bg: '#0078d4', fg: '#ffffff' },
+  'Codex':      { bg: '#22c55e', fg: '#ffffff' },
+};
+
+// ===== State =====
+const state = {
+  data: null,
+  filteredData: [],
+  searchQuery: '',
+  category: 'all',
+  series: 'all',
+  sortKey: 'input_price_cny',
+  sortDir: 'asc'
+};
+
+// ===== DOM Refs =====
+const $ = id => document.getElementById(id);
+const searchInput = $('searchInput');
+const categoryFilter = $('categoryFilter');
+const sortBtn = $('sortBtn');
+const sortLabel = $('sortLabel');
+const sortIcon = $('sortIcon');
+const seriesTags = $('seriesTags');
+const tableBody = $('tableBody');
+const resultCount = $('resultCount');
+const statProviders = $('stat-providers');
+const statModels = $('stat-models');
+const statSeries = $('stat-series');
+const statFreshness = $('stat-freshness');
+
+// ===== Sort Options =====
+const sortOptions = [
+  { label: '价格从低到高', col: 'input_price_cny', dir: 'asc', icon: '↑' },
+  { label: '价格从高到低', col: 'input_price_cny', dir: 'desc', icon: '↓' },
+  { label: '模型名 A-Z', col: 'model_name', dir: 'asc', icon: '↑' },
+  { label: '最近更新', col: 'last_updated', dir: 'desc', icon: '↓' },
+];
+let sortIdx = 0;
+
+// ===== Load Data =====
+async function loadData() {
+  try {
+    const res = await fetch('data/pricing.json');
+    state.data = res.ok ? await res.json() : getFallbackData();
+  } catch { state.data = getFallbackData(); }
+  init();
+}
+
+function init() {
+  // Series set
+  const seriesSet = new Set();
+  state.data.models.forEach(m => seriesSet.add(m.series));
+
+  seriesTags.innerHTML = '<span class="series-tag active" data-series="all">全部</span>';
+  [...seriesSet].sort().forEach(s => {
+    const tag = document.createElement('span');
+    tag.className = 'series-tag'; tag.dataset.series = s; tag.textContent = s;
+    seriesTags.appendChild(tag);
+  });
+
+  const uniqueProviders = new Set(state.data.models.map(m => m.provider)).size;
+  statProviders.textContent = uniqueProviders;
+  statModels.textContent = state.data.models.length;
+  statSeries.textContent = seriesSet.size;
+
+  const now = Date.now();
+  const avgAge = state.data.models.reduce((a, m) => a + (now - new Date(m.last_updated).getTime()), 0) / state.data.models.length;
+  const minAge = Math.round(avgAge / 60000);
+  statFreshness.textContent = minAge < 60 ? `${minAge}min` : `${Math.round(minAge/60)}h`;
+
+  if (state.data.updated_at) {
+    const d = new Date(state.data.updated_at);
+    $('heroUpdateText').textContent = `数据更新于 ${d.toLocaleString('zh-CN')}`;
+    $('footerInfo').innerHTML =
+      `数据更新于 ${d.toLocaleString('zh-CN')} · 价格单位：人民币 (¥) · 仅供参考，以官方页面为准 · <a href="https://github.com" target="_blank">GitHub</a>`;
+  }
+
+  // Bind events
+  searchInput.addEventListener('input', debounce(applyFilters, 180));
+  categoryFilter.addEventListener('change', applyFilters);
+  seriesTags.addEventListener('click', e => {
+    if (!e.target.classList.contains('series-tag')) return;
+    seriesTags.querySelectorAll('.series-tag').forEach(t => t.classList.remove('active'));
+    e.target.classList.add('active');
+    applyFilters();
+  });
+  sortBtn.addEventListener('click', toggleSort);
+  document.querySelectorAll('thead th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (state.sortKey === col) state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+      else { state.sortKey = col; state.sortDir = 'asc'; }
+      document.querySelectorAll('thead th').forEach(t => t.classList.remove('sorted'));
+      th.classList.add('sorted');
+      applyFilters();
+    });
+  });
+
+  applyFilters();
+  // lazy reveal
+  requestAnimationFrame(() => {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+  });
+}
+
+// ===== Filtering =====
+function applyFilters() {
+  state.searchQuery = searchInput.value.toLowerCase().trim();
+  state.category = categoryFilter.value;
+  state.series = (seriesTags.querySelector('.series-tag.active') || {}).dataset?.series || 'all';
+
+  let filtered = [...state.data.models];
+
+  if (state.searchQuery) {
+    const q = state.searchQuery;
+    filtered = filtered.filter(m =>
+      m.model_name.toLowerCase().includes(q) ||
+      m.provider.toLowerCase().includes(q) ||
+      m.series.toLowerCase().includes(q)
+    );
+  }
+  if (state.category !== 'all') filtered = filtered.filter(m => m.category === state.category);
+  if (state.series !== 'all') filtered = filtered.filter(m => m.series === state.series);
+
+  filtered.sort((a, b) => {
+    let va = a[state.sortKey], vb = b[state.sortKey];
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+    if (state.sortDir === 'asc') return va > vb ? 1 : va < vb ? -1 : 0;
+    return va < vb ? 1 : va > vb ? -1 : 0;
+  });
+
+  state.filteredData = filtered;
+  renderTable();
+}
+
+// ===== Render =====
+function renderTable() {
+  if (!state.filteredData.length) {
+    tableBody.innerHTML = `<tr><td colspan="6">
+      <div class="empty-state">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <p>没有匹配的结果</p></div></td></tr>`;
+    resultCount.innerHTML = '共 <strong>0</strong> 条记录'; return;
+  }
+
+  const now = Date.now();
+  tableBody.innerHTML = state.filteredData.map((m, i) => {
+    const age = now - new Date(m.last_updated).getTime();
+    const ageMin = Math.round(age / 60000);
+    let dotClass = 'gray', ageText;
+    if (ageMin < 60) { dotClass = 'green'; ageText = `${ageMin}min前`; }
+    else if (ageMin < 720) { dotClass = 'amber'; ageText = `${Math.round(ageMin/60)}h前`; }
+    else { ageText = `${Math.round(ageMin/1440)}d前`; }
+
+    const inp = m.input_price_cny, outp = m.output_price_cny;
+    const inpStr = inp === 0 ? '免费' : `¥${inp.toFixed(2)}`;
+    const outpStr = outp === 0 ? '免费' : `¥${outp.toFixed(2)}`;
+
+    // Price color coding
+    const avgPrice = (inp + outp) / 2;
+    let priceClass = 'price-mid';
+    if (inp === 0 && outp === 0) priceClass = 'price-free';
+    else if (avgPrice < 1) priceClass = 'price-free';
+    else if (avgPrice < 8) priceClass = 'price-low';
+    else if (avgPrice < 50) priceClass = 'price-mid';
+    else if (avgPrice < 150) priceClass = 'price-high';
+    else priceClass = 'price-premium';
+
+    const colors = SERIES_COLORS[m.series] || { bg: '#6e6e73', fg: '#ffffff' };
+    const seriesKey = m.series || 'Other';
+
+    const catLabel = { 'overseas-official': '海外', 'domestic-official': '国内', 'proxy': '代理' }[m.category] || '';
+    const catClass = { 'overseas-official': 'overseas', 'domestic-official': 'domestic', 'proxy': 'proxy' }[m.category] || '';
+
+    return `
+    <tr style="animation-delay:${i * 0.015}s">
+      <td>
+        <div class="model-cell">
+          <div class="model-icon" style="background:${colors.bg};color:${colors.fg}">${seriesKey[0]}</div>
+          <span class="model-name">${esc(m.model_name)}</span>
+        </div>
+      </td>
+      <td><span class="cat-pill ${catClass}">${catLabel}</span></td>
+      <td><span class="provider-badge"><span class="freshness-dot ${dotClass}"></span>${esc(m.provider)}</span></td>
+      <td class="price-cell ${priceClass}">${inpStr}</td>
+      <td class="price-cell ${priceClass}">${outpStr}</td>
+      <td class="freshness-cell">${ageText}</td>
+    </tr>`;
+  }).join('');
+
+  resultCount.innerHTML = `共 <strong>${state.filteredData.length}</strong> 条记录`;
+}
+
+function toggleSort() {
+  sortIdx = (sortIdx + 1) % sortOptions.length;
+  const opt = sortOptions[sortIdx];
+  sortLabel.textContent = opt.label;
+  sortIcon.textContent = opt.icon;
+  state.sortKey = opt.col; state.sortDir = opt.dir;
+  document.querySelectorAll('thead th').forEach(t => t.classList.remove('sorted'));
+  const th = document.querySelector(`thead th[data-col="${opt.col}"]`);
+  if (th) th.classList.add('sorted');
+  applyFilters();
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+
+// ===== Rich sample data =====
+function getFallbackData() {
+  return {"updated_at":"2026-05-09T18:00:00Z","models":[
+    // === Claude Series ===
+    {"model_name":"Claude Opus 4.7","provider":"Anthropic Official","category":"overseas-official","series":"Claude","input_price_cny":36.25,"output_price_cny":181.25,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Claude Sonnet 4.6","provider":"Anthropic Official","category":"overseas-official","series":"Claude","input_price_cny":21.75,"output_price_cny":108.75,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Claude Haiku 4.5","provider":"Anthropic Official","category":"overseas-official","series":"Claude","input_price_cny":7.25,"output_price_cny":36.25,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"OpenRouter","category":"proxy","series":"Claude","input_price_cny":38.00,"output_price_cny":185.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Claude Sonnet 4.6","provider":"OpenRouter","category":"proxy","series":"Claude","input_price_cny":22.50,"output_price_cny":110.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Claude Haiku 4.5","provider":"OpenRouter","category":"proxy","series":"Claude","input_price_cny":7.50,"output_price_cny":37.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"SiliconFlow","category":"proxy","series":"Claude","input_price_cny":37.00,"output_price_cny":182.00,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"Claude Sonnet 4.6","provider":"SiliconFlow","category":"proxy","series":"Claude","input_price_cny":22.00,"output_price_cny":109.00,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"Claude Haiku 4.5","provider":"SiliconFlow","category":"proxy","series":"Claude","input_price_cny":7.30,"output_price_cny":36.50,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"AWS Bedrock","category":"overseas-official","series":"Claude","input_price_cny":36.25,"output_price_cny":181.25,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"Claude Sonnet 4.6","provider":"AWS Bedrock","category":"overseas-official","series":"Claude","input_price_cny":21.75,"output_price_cny":108.75,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"Claude Haiku 4.5","provider":"AWS Bedrock","category":"overseas-official","series":"Claude","input_price_cny":7.25,"output_price_cny":36.25,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"AiHubMix","category":"proxy","series":"Claude","input_price_cny":37.50,"output_price_cny":183.00,"last_updated":"2026-05-09T17:35:00Z"},
+    {"model_name":"Claude Sonnet 4.6","provider":"AiHubMix","category":"proxy","series":"Claude","input_price_cny":22.80,"output_price_cny":111.00,"last_updated":"2026-05-09T17:35:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"胜算云","category":"proxy","series":"Claude","input_price_cny":39.00,"output_price_cny":190.00,"last_updated":"2026-05-09T17:20:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"AIGoCode","category":"proxy","series":"Claude","input_price_cny":35.00,"output_price_cny":178.00,"last_updated":"2026-05-09T17:15:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"DMXAPI","category":"proxy","series":"Claude","input_price_cny":36.80,"output_price_cny":180.00,"last_updated":"2026-05-09T16:50:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"ModelScope","category":"proxy","series":"Claude","input_price_cny":37.20,"output_price_cny":184.00,"last_updated":"2026-05-09T17:10:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"TheRouter","category":"proxy","series":"Claude","input_price_cny":38.50,"output_price_cny":186.00,"last_updated":"2026-05-09T17:00:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"Novita AI","category":"proxy","series":"Claude","input_price_cny":37.00,"output_price_cny":182.00,"last_updated":"2026-05-09T16:55:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"PIPELLM","category":"proxy","series":"Claude","input_price_cny":38.00,"output_price_cny":185.00,"last_updated":"2026-05-09T16:40:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"PackyCode","category":"proxy","series":"Claude","input_price_cny":36.00,"output_price_cny":180.00,"last_updated":"2026-05-09T16:30:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"Cubence","category":"proxy","series":"Claude","input_price_cny":36.50,"output_price_cny":181.00,"last_updated":"2026-05-09T16:25:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"RightCode","category":"proxy","series":"Claude","input_price_cny":35.80,"output_price_cny":179.00,"last_updated":"2026-05-09T16:20:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"AICodeMirror","category":"proxy","series":"Claude","input_price_cny":35.50,"output_price_cny":177.00,"last_updated":"2026-05-09T16:15:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"AICoding","category":"proxy","series":"Claude","input_price_cny":35.00,"output_price_cny":176.00,"last_updated":"2026-05-09T16:10:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"CrazyRouter","category":"proxy","series":"Claude","input_price_cny":34.50,"output_price_cny":175.00,"last_updated":"2026-05-09T16:05:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"SSSAiCode","category":"proxy","series":"Claude","input_price_cny":34.00,"output_price_cny":174.00,"last_updated":"2026-05-09T15:50:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"CTok.ai","category":"proxy","series":"Claude","input_price_cny":34.80,"output_price_cny":173.00,"last_updated":"2026-05-09T15:45:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"DDSHub","category":"proxy","series":"Claude","input_price_cny":33.50,"output_price_cny":172.00,"last_updated":"2026-05-09T15:40:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"E-FlowCode","category":"proxy","series":"Claude","input_price_cny":33.00,"output_price_cny":170.00,"last_updated":"2026-05-09T15:30:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"LionCCAPI","category":"proxy","series":"Claude","input_price_cny":32.50,"output_price_cny":168.00,"last_updated":"2026-05-09T15:20:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"优云智算","category":"proxy","series":"Claude","input_price_cny":36.00,"output_price_cny":180.00,"last_updated":"2026-05-09T17:05:00Z"},
+    {"model_name":"Claude Sonnet 4.6","provider":"优云智算","category":"proxy","series":"Claude","input_price_cny":21.50,"output_price_cny":108.00,"last_updated":"2026-05-09T17:05:00Z"},
+    // === GPT Series ===
+    {"model_name":"GPT-5.4 Pro","provider":"OpenAI Official","category":"overseas-official","series":"GPT","input_price_cny":217.50,"output_price_cny":1305.00,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GPT-5.4","provider":"OpenAI Official","category":"overseas-official","series":"GPT","input_price_cny":18.13,"output_price_cny":108.75,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GPT-5.4 Mini","provider":"OpenAI Official","category":"overseas-official","series":"GPT","input_price_cny":5.44,"output_price_cny":32.63,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GPT-5.4 Nano","provider":"OpenAI Official","category":"overseas-official","series":"GPT","input_price_cny":1.45,"output_price_cny":9.06,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GPT-4.1","provider":"OpenAI Official","category":"overseas-official","series":"GPT","input_price_cny":14.50,"output_price_cny":58.00,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GPT-4.1 Mini","provider":"OpenAI Official","category":"overseas-official","series":"GPT","input_price_cny":2.90,"output_price_cny":11.60,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GPT-4.1 Nano","provider":"OpenAI Official","category":"overseas-official","series":"GPT","input_price_cny":0.73,"output_price_cny":2.90,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GPT-5.4","provider":"OpenRouter","category":"proxy","series":"GPT","input_price_cny":19.00,"output_price_cny":110.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"GPT-5.4 Mini","provider":"OpenRouter","category":"proxy","series":"GPT","input_price_cny":5.80,"output_price_cny":33.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"GPT-5.4 Nano","provider":"OpenRouter","category":"proxy","series":"GPT","input_price_cny":1.60,"output_price_cny":9.50,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"GPT-4.1","provider":"OpenRouter","category":"proxy","series":"GPT","input_price_cny":15.00,"output_price_cny":60.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"GPT-4.1 Mini","provider":"OpenRouter","category":"proxy","series":"GPT","input_price_cny":3.10,"output_price_cny":12.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"GPT-5.4","provider":"SiliconFlow","category":"proxy","series":"GPT","input_price_cny":18.50,"output_price_cny":109.00,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"GPT-4.1","provider":"SiliconFlow","category":"proxy","series":"GPT","input_price_cny":14.80,"output_price_cny":59.00,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"GPT-5.4","provider":"AiHubMix","category":"proxy","series":"GPT","input_price_cny":18.80,"output_price_cny":110.00,"last_updated":"2026-05-09T17:35:00Z"},
+    // === Gemini Series ===
+    {"model_name":"Gemini 3.1 Pro","provider":"Google Official","category":"overseas-official","series":"Gemini","input_price_cny":14.50,"output_price_cny":87.00,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Gemini 3 Flash","provider":"Google Official","category":"overseas-official","series":"Gemini","input_price_cny":3.63,"output_price_cny":21.75,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Gemini 2.5 Pro","provider":"Google Official","category":"overseas-official","series":"Gemini","input_price_cny":9.06,"output_price_cny":72.50,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Gemini 2.5 Flash","provider":"Google Official","category":"overseas-official","series":"Gemini","input_price_cny":1.09,"output_price_cny":18.13,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Gemini 2.0 Flash Lite","provider":"Google Official","category":"overseas-official","series":"Gemini","input_price_cny":0.54,"output_price_cny":2.18,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Gemini 3.1 Pro","provider":"OpenRouter","category":"proxy","series":"Gemini","input_price_cny":15.00,"output_price_cny":88.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Gemini 3 Flash","provider":"OpenRouter","category":"proxy","series":"Gemini","input_price_cny":3.80,"output_price_cny":22.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Gemini 2.5 Pro","provider":"OpenRouter","category":"proxy","series":"Gemini","input_price_cny":9.50,"output_price_cny":73.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Gemini 2.5 Flash","provider":"OpenRouter","category":"proxy","series":"Gemini","input_price_cny":1.20,"output_price_cny":18.50,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Gemini 2.5 Pro","provider":"SiliconFlow","category":"proxy","series":"Gemini","input_price_cny":9.50,"output_price_cny":73.00,"last_updated":"2026-05-09T17:40:00Z"},
+    // === DeepSeek Series ===
+    {"model_name":"DeepSeek V4 Pro","provider":"DeepSeek Official","category":"domestic-official","series":"DeepSeek","input_price_cny":3.00,"output_price_cny":6.00,"last_updated":"2026-05-09T17:55:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"DeepSeek Official","category":"domestic-official","series":"DeepSeek","input_price_cny":1.00,"output_price_cny":2.00,"last_updated":"2026-05-09T17:55:00Z"},
+    {"model_name":"DeepSeek V3.2","provider":"DeepSeek Official","category":"domestic-official","series":"DeepSeek","input_price_cny":1.96,"output_price_cny":7.98,"last_updated":"2026-05-09T17:55:00Z"},
+    {"model_name":"DeepSeek R1","provider":"DeepSeek Official","category":"domestic-official","series":"DeepSeek","input_price_cny":3.99,"output_price_cny":15.88,"last_updated":"2026-05-09T17:55:00Z"},
+    {"model_name":"DeepSeek V4 Pro","provider":"OpenRouter","category":"proxy","series":"DeepSeek","input_price_cny":3.20,"output_price_cny":6.50,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"OpenRouter","category":"proxy","series":"DeepSeek","input_price_cny":1.10,"output_price_cny":2.20,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"DeepSeek V3.2","provider":"OpenRouter","category":"proxy","series":"DeepSeek","input_price_cny":2.00,"output_price_cny":8.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"DeepSeek R1","provider":"OpenRouter","category":"proxy","series":"DeepSeek","input_price_cny":4.20,"output_price_cny":16.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"DeepSeek V4 Pro","provider":"SiliconFlow","category":"proxy","series":"DeepSeek","input_price_cny":3.10,"output_price_cny":6.20,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"SiliconFlow","category":"proxy","series":"DeepSeek","input_price_cny":1.05,"output_price_cny":2.10,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"DeepSeek V3.2","provider":"SiliconFlow","category":"proxy","series":"DeepSeek","input_price_cny":1.98,"output_price_cny":7.98,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"DeepSeek R1","provider":"SiliconFlow","category":"proxy","series":"DeepSeek","input_price_cny":4.00,"output_price_cny":16.00,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"DeepSeek V4 Pro","provider":"AiHubMix","category":"proxy","series":"DeepSeek","input_price_cny":3.15,"output_price_cny":6.30,"last_updated":"2026-05-09T17:35:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"AiHubMix","category":"proxy","series":"DeepSeek","input_price_cny":1.08,"output_price_cny":2.15,"last_updated":"2026-05-09T17:35:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"优云智算","category":"proxy","series":"DeepSeek","input_price_cny":0.98,"output_price_cny":1.95,"last_updated":"2026-05-09T17:05:00Z"},
+    {"model_name":"DeepSeek V4 Pro","provider":"优云智算","category":"proxy","series":"DeepSeek","input_price_cny":2.90,"output_price_cny":5.80,"last_updated":"2026-05-09T17:05:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"DDSHub","category":"proxy","series":"DeepSeek","input_price_cny":0.95,"output_price_cny":1.90,"last_updated":"2026-05-09T15:40:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"ModelScope","category":"proxy","series":"DeepSeek","input_price_cny":1.02,"output_price_cny":2.05,"last_updated":"2026-05-09T17:10:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"Novita AI","category":"proxy","series":"DeepSeek","input_price_cny":1.00,"output_price_cny":2.00,"last_updated":"2026-05-09T16:55:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"CrazyRouter","category":"proxy","series":"DeepSeek","input_price_cny":0.92,"output_price_cny":1.85,"last_updated":"2026-05-09T16:05:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"RightCode","category":"proxy","series":"DeepSeek","input_price_cny":0.96,"output_price_cny":1.92,"last_updated":"2026-05-09T16:20:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"AIGoCode","category":"proxy","series":"DeepSeek","input_price_cny":0.97,"output_price_cny":1.93,"last_updated":"2026-05-09T17:15:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"LemonData","category":"proxy","series":"DeepSeek","input_price_cny":0.90,"output_price_cny":1.80,"last_updated":"2026-05-09T15:10:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"Micu","category":"proxy","series":"DeepSeek","input_price_cny":0.88,"output_price_cny":1.78,"last_updated":"2026-05-09T15:00:00Z"},
+    // === Qwen Series ===
+    {"model_name":"Qwen3.5 Flash","provider":"Alibaba Bailian","category":"domestic-official","series":"Qwen","input_price_cny":0.73,"output_price_cny":2.90,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Qwen-Max","provider":"Alibaba Bailian","category":"domestic-official","series":"Qwen","input_price_cny":2.90,"output_price_cny":8.70,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Qwen-Plus","provider":"Alibaba Bailian","category":"domestic-official","series":"Qwen","input_price_cny":0.58,"output_price_cny":1.74,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Qwen-Turbo","provider":"Alibaba Bailian","category":"domestic-official","series":"Qwen","input_price_cny":0.22,"output_price_cny":0.44,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Qwen-Coder","provider":"Bailian For Coding","category":"domestic-official","series":"Qwen","input_price_cny":0.51,"output_price_cny":1.45,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Qwen-Max","provider":"SiliconFlow","category":"proxy","series":"Qwen","input_price_cny":2.95,"output_price_cny":8.80,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"Qwen-Plus","provider":"SiliconFlow","category":"proxy","series":"Qwen","input_price_cny":0.60,"output_price_cny":1.80,"last_updated":"2026-05-09T17:40:00Z"},
+    // === GLM Series ===
+    {"model_name":"GLM 5.1","provider":"Zhipu AI","category":"domestic-official","series":"GLM","input_price_cny":10.15,"output_price_cny":31.90,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GLM 5 Turbo","provider":"Zhipu AI","category":"domestic-official","series":"GLM","input_price_cny":6.96,"output_price_cny":23.20,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GLM-4 Plus","provider":"Zhipu AI","category":"domestic-official","series":"GLM","input_price_cny":0.10,"output_price_cny":0.10,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"GLM-4 Flash","provider":"Zhipu AI","category":"domestic-official","series":"GLM","input_price_cny":0.00,"output_price_cny":0.00,"last_updated":"2026-05-09T17:50:00Z"},
+    // === Kimi Series ===
+    {"model_name":"Kimi K2","provider":"Moonshot AI","category":"domestic-official","series":"Kimi","input_price_cny":3.63,"output_price_cny":14.50,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Kimi K2","provider":"Kimi For Coding","category":"domestic-official","series":"Kimi","input_price_cny":3.63,"output_price_cny":14.50,"last_updated":"2026-05-09T17:50:00Z"},
+    // === MiniMax Series ===
+    {"model_name":"MiniMax M2.5","provider":"MiniMax Official","category":"domestic-official","series":"MiniMax","input_price_cny":1.96,"output_price_cny":6.89,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"MiniMax M1","provider":"MiniMax Official","category":"domestic-official","series":"MiniMax","input_price_cny":0.73,"output_price_cny":2.90,"last_updated":"2026-05-09T17:50:00Z"},
+    // === DouBao Series ===
+    {"model_name":"DouBao 1.5 Pro","provider":"ByteDance","category":"domestic-official","series":"DouBao","input_price_cny":0.58,"output_price_cny":1.45,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"DouBao 1.5 Lite","provider":"ByteDance","category":"domestic-official","series":"DouBao","input_price_cny":0.15,"output_price_cny":0.58,"last_updated":"2026-05-09T17:50:00Z"},
+    // === StepFun Series ===
+    {"model_name":"Step-2","provider":"StepFun Official","category":"domestic-official","series":"StepFun","input_price_cny":0.73,"output_price_cny":2.90,"last_updated":"2026-05-09T17:45:00Z"},
+    // === Grok Series ===
+    {"model_name":"Grok 4.20 Beta","provider":"xAI Official","category":"overseas-official","series":"Grok","input_price_cny":14.50,"output_price_cny":43.50,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Grok 4","provider":"xAI Official","category":"overseas-official","series":"Grok","input_price_cny":21.75,"output_price_cny":108.75,"last_updated":"2026-05-09T17:50:00Z"},
+    {"model_name":"Grok 4.20 Beta","provider":"OpenRouter","category":"proxy","series":"Grok","input_price_cny":15.00,"output_price_cny":45.00,"last_updated":"2026-05-09T17:45:00Z"},
+    // === Llama Series ===
+    {"model_name":"Llama 4 Maverick","provider":"Meta Official","category":"overseas-official","series":"Llama","input_price_cny":10.88,"output_price_cny":18.13,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"Llama 4 Maverick","provider":"OpenRouter","category":"proxy","series":"Llama","input_price_cny":11.50,"output_price_cny":19.00,"last_updated":"2026-05-09T17:45:00Z"},
+    {"model_name":"Llama 4 NIM","provider":"Nvidia","category":"overseas-official","series":"Llama","input_price_cny":0.00,"output_price_cny":0.00,"last_updated":"2026-05-09T17:00:00Z"},
+    // === Others ===
+    {"model_name":"Longcat","provider":"Longcat Official","category":"domestic-official","series":"Longcat","input_price_cny":0.36,"output_price_cny":1.45,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"Xiaomi MiMo","provider":"Xiaomi Official","category":"domestic-official","series":"MiMo","input_price_cny":0.36,"output_price_cny":1.45,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"BaiLing","provider":"BaiLing Official","category":"domestic-official","series":"BaiLing","input_price_cny":0.00,"output_price_cny":0.00,"last_updated":"2026-05-09T17:00:00Z"},
+    {"model_name":"KAT-Coder","provider":"KAT-Coder","category":"proxy","series":"KAT","input_price_cny":0.50,"output_price_cny":2.00,"last_updated":"2026-05-09T16:00:00Z"},
+    {"model_name":"GitHub Copilot","provider":"GitHub","category":"overseas-official","series":"Copilot","input_price_cny":0.00,"output_price_cny":0.00,"last_updated":"2026-05-09T17:00:00Z"},
+    {"model_name":"Codex","provider":"OpenAI Codex","category":"overseas-official","series":"Codex","input_price_cny":0.00,"output_price_cny":0.00,"last_updated":"2026-05-09T17:00:00Z"},
+    {"model_name":"DeepSeek V3.2","provider":"DMXAPI","category":"proxy","series":"DeepSeek","input_price_cny":2.00,"output_price_cny":8.00,"last_updated":"2026-05-09T16:50:00Z"},
+    {"model_name":"DeepSeek V4 Flash","provider":"SiliconFlow en","category":"proxy","series":"DeepSeek","input_price_cny":1.05,"output_price_cny":2.10,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"Claude Opus 4.7","provider":"SiliconFlow en","category":"proxy","series":"Claude","input_price_cny":37.00,"output_price_cny":182.00,"last_updated":"2026-05-09T17:40:00Z"},
+    {"model_name":"GLM-4 Plus","provider":"Zhipu GLM en","category":"domestic-official","series":"GLM","input_price_cny":0.10,"output_price_cny":0.10,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"MiniMax M1","provider":"MiniMax en","category":"domestic-official","series":"MiniMax","input_price_cny":0.73,"output_price_cny":2.90,"last_updated":"2026-05-09T17:30:00Z"},
+    {"model_name":"Step-2","provider":"StepFun en","category":"domestic-official","series":"StepFun","input_price_cny":0.73,"output_price_cny":2.90,"last_updated":"2026-05-09T17:30:00Z"},
+  ]};
+}
+
+loadData();
+</script>
+</body>
+</html>
