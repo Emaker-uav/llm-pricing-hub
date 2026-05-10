@@ -321,18 +321,89 @@ tbody tr:last-child td { border-bottom: none; }
 }
 .footer a { color: var(--blue); text-decoration: none; }
 
-/* ===== Responsive ===== */
+/* ===== Responsive: Tablet ===== */
 @media (max-width: 768px) {
-  .hero { padding: 48px 0 24px; }
+  .container { padding: 0 16px; }
+  .hero { padding: 40px 0 20px; }
   .hero h1 { font-size: 36px; letter-spacing: -1px; }
   .hero-subtitle { font-size: 15px; }
-  .stats-row { gap: 24px; }
-  .stat-value { font-size: 26px; }
-  .filter-row { flex-direction: column; }
-  .search-wrap { min-width: 100%; }
-  .series-tags { gap: 6px; }
-  .series-tag { font-size: 11px; padding: 5px 12px; }
-  thead th, tbody td { padding: 10px 14px; font-size: 11px; }
+  .hero-update-badge { font-size: 11px; padding: 5px 12px; }
+  .stats-row { gap: 16px; margin-top: 24px; }
+  .stat-value { font-size: 24px; }
+  .stat-label { font-size: 11px; }
+  .filter-bar { top: 8px; }
+  .filter-inner { padding: 10px 12px; border-radius: var(--radius); }
+  .filter-row { flex-direction: column; gap: 6px; }
+  .search-wrap { min-width: 100%; padding: 8px 12px; }
+  .filter-select { font-size: 12px; padding: 8px 30px 8px 10px; }
+  .sort-btn { font-size: 12px; padding: 8px 12px; width: 100%; justify-content: center; }
+  .series-tags { gap: 4px; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .series-tag { font-size: 11px; padding: 5px 10px; flex-shrink: 0; }
+  .table-card { border-radius: var(--radius); }
+  .table-header-bar { padding: 12px 14px; }
+  .table-scroll { -webkit-overflow-scrolling: touch; }
+  thead th { padding: 10px 12px; font-size: 10px; letter-spacing: 0.3px; }
+  tbody td { padding: 10px 12px; font-size: 11px; }
+  .model-name { font-size: 12px; }
+  .model-icon { width: 26px; height: 26px; font-size: 11px; border-radius: 6px; }
+  .footer { padding: 24px 16px 40px; font-size: 11px; }
+}
+
+/* ===== Responsive: Mobile (card layout) ===== */
+@media (max-width: 540px) {
+  .hero h1 { font-size: 28px; letter-spacing: -0.5px; }
+  .hero-subtitle { font-size: 13px; max-width: 100%; }
+  .hero-eyebrow { font-size: 10px; padding: 4px 12px; }
+  .hero-update-badge { font-size: 10px; }
+  .stats-row { gap: 12px; }
+  .stat-value { font-size: 20px; }
+  .stat-label { font-size: 10px; }
+  .stat-divider { display: none; }
+
+  /* Hide table, show cards */
+  .table-card table { display: none; }
+  .table-header-bar { display: none; }
+
+  .mobile-cards { display: flex; flex-direction: column; gap: 8px; padding: 12px; }
+  .mobile-card {
+    background: rgba(255,255,255,0.8); border-radius: var(--radius);
+    padding: 14px; border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: var(--shadow-sm); animation: fadeSlideUp 0.4s var(--spring) both;
+  }
+  .mobile-card-top {
+    display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;
+  }
+  .mobile-card-model {
+    display: flex; align-items: center; gap: 8px;
+  }
+  .mobile-card-prices {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 6px;
+    padding-top: 10px; border-top: 1px solid rgba(0,0,0,0.04);
+  }
+  .mobile-price-item {
+    display: flex; flex-direction: column; gap: 1px;
+  }
+  .mobile-price-label { font-size: 10px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.3px; }
+  .mobile-price-value { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 600; }
+  .mobile-card-footer {
+    display: flex; align-items: center; justify-content: space-between; margin-top: 8px;
+    padding-top: 8px; border-top: 1px solid rgba(0,0,0,0.04);
+    font-size: 10px; color: var(--text-tertiary);
+  }
+
+  .section-title-mobile {
+    padding: 0 12px 6px; font-size: 11px; font-weight: 600;
+    color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.5px;
+    display: block;
+  }
+}
+
+/* ===== Mobile Cards (hidden on desktop) ===== */
+.mobile-cards { display: none; }
+.section-title-mobile { display: none; }
+@media (max-width: 540px) {
+  .mobile-cards { display: flex; }
+  .section-title-mobile { display: block; }
 }
 
 /* ===== Scroll Reveal ===== */
@@ -420,6 +491,8 @@ tbody tr:last-child td { border-bottom: none; }
           </thead>
           <tbody id="tableBody"></tbody>
         </table>
+        <div class="section-title-mobile" id="mobileSectionTitle">定价列表</div>
+        <div class="mobile-cards" id="mobileCards"></div>
       </div>
     </div>
   </section>
@@ -641,6 +714,69 @@ function renderTable() {
   }).join('');
 
   resultCount.innerHTML = `共 <strong>${state.filteredData.length}</strong> 条记录`;
+  renderMobileCards();
+}
+
+function renderMobileCards() {
+  const mc = document.getElementById('mobileCards');
+  const mst = document.getElementById('mobileSectionTitle');
+  if (!state.filteredData.length) {
+    mc.innerHTML = ''; mst.style.display = 'none'; return;
+  }
+  mst.textContent = `定价列表 · ${state.filteredData.length} 条`;
+
+  const now = Date.now();
+  mc.innerHTML = state.filteredData.map((m, i) => {
+    const age = now - new Date(m.last_updated).getTime();
+    const ageMin = Math.round(age / 60000);
+    let dotClass = 'gray', ageText;
+    if (ageMin < 60) { dotClass = 'green'; ageText = `${ageMin}min前`; }
+    else if (ageMin < 720) { dotClass = 'amber'; ageText = `${Math.round(ageMin/60)}h前`; }
+    else { ageText = `${Math.round(ageMin/1440)}d前`; }
+
+    const inp = m.input_price_cny, outp = m.output_price_cny;
+    const inpStr = inp === 0 ? '免费' : `¥${inp.toFixed(2)}`;
+    const outpStr = outp === 0 ? '免费' : `¥${outp.toFixed(2)}`;
+    const avgPrice = (inp + outp) / 2;
+    let priceClass = 'price-mid';
+    if (inp === 0 && outp === 0) priceClass = 'price-free';
+    else if (avgPrice < 1) priceClass = 'price-free';
+    else if (avgPrice < 8) priceClass = 'price-low';
+    else if (avgPrice < 50) priceClass = 'price-mid';
+    else if (avgPrice < 150) priceClass = 'price-high';
+    else priceClass = 'price-premium';
+
+    const colors = SERIES_COLORS[m.series] || { bg: '#6e6e73', fg: '#ffffff' };
+    const seriesKey = m.series || 'Other';
+
+    return `
+    <div class="mobile-card" style="animation-delay:${i * 0.02}s">
+      <div class="mobile-card-top">
+        <div class="mobile-card-model">
+          <div class="model-icon" style="background:${colors.bg};color:${colors.fg};width:28px;height:28px;font-size:12px;border-radius:7px">${seriesKey[0]}</div>
+          <div>
+            <div class="model-name">${esc(m.model_name)}</div>
+            <div style="font-size:10px;color:var(--text-tertiary)">${esc(m.series)}</div>
+          </div>
+        </div>
+        <span class="provider-badge" style="font-size:10px"><span class="freshness-dot ${dotClass}"></span>${esc(m.provider)}</span>
+      </div>
+      <div class="mobile-card-prices">
+        <div class="mobile-price-item">
+          <span class="mobile-price-label">输入 / 1M tok</span>
+          <span class="mobile-price-value ${priceClass}">${inpStr}</span>
+        </div>
+        <div class="mobile-price-item">
+          <span class="mobile-price-label">输出 / 1M tok</span>
+          <span class="mobile-price-value ${priceClass}">${outpStr}</span>
+        </div>
+      </div>
+      <div class="mobile-card-footer">
+        <span>${ageText}更新</span>
+        <span class="cat-pill ${m.category === 'overseas-official' ? 'overseas' : m.category === 'domestic-official' ? 'domestic' : 'proxy'}">${{'overseas-official':'海外','domestic-official':'国内','proxy':'代理'}[m.category]||''}</span>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 function toggleSort() {
