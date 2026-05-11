@@ -19,6 +19,10 @@ class OpenRouterScraper(BaseScraper):
             prompt_cost = float(pricing.get("prompt", 0))  # per token → per 1M
             completion_cost = float(pricing.get("completion", 0))
 
+            # Skip models with invalid/negative pricing (e.g. router models)
+            if prompt_cost < 0 or completion_cost < 0:
+                continue
+
             # Convert per-token to per-1M-tokens, then USD to CNY
             input_cny = round(prompt_cost * 1_000_000 * 7.25, 2)
             output_cny = round(completion_cost * 1_000_000 * 7.25, 2)

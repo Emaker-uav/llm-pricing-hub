@@ -1,33 +1,6 @@
 {
-  "updated_at": "2026-05-11T10:02:34Z",
+  "updated_at": "2026-05-11T14:00:00Z",
   "models": [
-    {
-      "model_name": "Pareto Code Router",
-      "provider": "OpenRouter",
-      "category": "proxy",
-      "series": "Other",
-      "input_price_cny": -7250000.0,
-      "output_price_cny": -7250000.0,
-      "last_updated": "2026-05-11T10:02:34Z"
-    },
-    {
-      "model_name": "Body Builder (beta)",
-      "provider": "OpenRouter",
-      "category": "proxy",
-      "series": "Other",
-      "input_price_cny": -7250000.0,
-      "output_price_cny": -7250000.0,
-      "last_updated": "2026-05-11T10:02:34Z"
-    },
-    {
-      "model_name": "Auto Router",
-      "provider": "OpenRouter",
-      "category": "proxy",
-      "series": "Other",
-      "input_price_cny": -7250000.0,
-      "output_price_cny": -7250000.0,
-      "last_updated": "2026-05-11T10:02:34Z"
-    },
     {
       "model_name": "BaiLing",
       "provider": "BaiLing",
