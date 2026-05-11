@@ -45,3 +45,10 @@ jobs:
             git push
             echo "Pricing data updated and pushed."
           fi
+
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: |
+          npm install -g netlify-cli
+          netlify deploy --prod --dir=. --site=cfa8036d-16d6-474c-94f6-572909071bb1
