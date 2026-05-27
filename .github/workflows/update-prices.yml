@@ -14,16 +14,24 @@ jobs:
     permissions:
       contents: write
 
+    env:
+      NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID || 'cfa8036d-16d6-474c-94f6-572909071bb1' }}
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip'
           cache-dependency-path: scrapers/requirements.txt
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
 
       - name: Install dependencies
         run: pip install -r scrapers/requirements.txt
@@ -50,5 +58,14 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         run: |
-          npm install -g netlify-cli
-          netlify deploy --prod --dir=. --site=cfa8036d-16d6-474c-94f6-572909071bb1
+          if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
+            echo "::error title=Missing NETLIFY_AUTH_TOKEN::Create a Netlify personal access token and add it as the repository secret NETLIFY_AUTH_TOKEN."
+            exit 1
+          fi
+          if [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error title=Missing NETLIFY_SITE_ID::Add the Netlify site id as NETLIFY_SITE_ID, or keep the checked-in fallback site id current."
+            exit 1
+          fi
+
+          npm install -g netlify-cli@26
+          netlify deploy --prod --dir="$GITHUB_WORKSPACE" --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN" --message="pricing update ${GITHUB_SHA}"
