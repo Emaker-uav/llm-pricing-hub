@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T15:44:56Z",
+  "updated_at": "2026-06-19T20:07:23Z",
   "models": [
     {
       "model_name": "BaiLing",
@@ -8,7 +8,7 @@
       "series": "BaiLing",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Codex",
@@ -17,7 +17,7 @@
       "series": "Codex",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GitHub Copilot",
@@ -26,7 +26,7 @@
       "series": "Copilot",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Llama 4 NIM",
@@ -35,7 +35,7 @@
       "series": "Llama",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Llama 3.1 70B NIM",
@@ -44,7 +44,7 @@
       "series": "Llama",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mixtral 8x22B NIM",
@@ -53,7 +53,7 @@
       "series": "Mistral",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Cohere: North Mini Code (free)",
@@ -62,7 +62,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Nex AGI: Nex-N2-Pro (free)",
@@ -71,7 +71,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
@@ -80,7 +80,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3 Ultra (free)",
@@ -89,7 +89,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Owl Alpha",
@@ -98,7 +98,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3 Nano Omni (free)",
@@ -107,7 +107,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Poolside: Laguna XS.2 (free)",
@@ -116,7 +116,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Poolside: Laguna M.1 (free)",
@@ -125,7 +125,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 4 26B A4B  (free)",
@@ -134,7 +134,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 4 31B (free)",
@@ -143,7 +143,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Lyria 3 Pro Preview",
@@ -152,7 +152,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Lyria 3 Clip Preview",
@@ -161,7 +161,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3 Super (free)",
@@ -170,7 +170,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Free Models Router",
@@ -179,7 +179,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
@@ -188,7 +188,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
@@ -197,7 +197,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
@@ -206,7 +206,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
@@ -215,7 +215,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
@@ -224,7 +224,7 @@
       "series": "Qwen",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron Nano 9B V2 (free)",
@@ -233,7 +233,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: gpt-oss-120b (free)",
@@ -242,7 +242,7 @@
       "series": "GPT",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: gpt-oss-20b (free)",
@@ -251,7 +251,7 @@
       "series": "GPT",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Coder 480B A35B (free)",
@@ -260,7 +260,7 @@
       "series": "Qwen",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Venice: Uncensored (free)",
@@ -269,7 +269,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.3 70B Instruct (free)",
@@ -278,7 +278,7 @@
       "series": "Llama",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.2 3B Instruct (free)",
@@ -287,7 +287,7 @@
       "series": "Llama",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Nous: Hermes 3 405B Instruct (free)",
@@ -296,7 +296,7 @@
       "series": "Other",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GLM-4 Flash",
@@ -305,7 +305,7 @@
       "series": "GLM",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GLM-4 Air",
@@ -314,7 +314,7 @@
       "series": "GLM",
       "input_price_cny": 0,
       "output_price_cny": 0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "inclusionAI: Ling-2.6-flash",
@@ -323,7 +323,7 @@
       "series": "Other",
       "input_price_cny": 0.07,
       "output_price_cny": 0.22,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GLM-4 Plus",
@@ -332,7 +332,7 @@
       "series": "GLM",
       "input_price_cny": 0.1,
       "output_price_cny": 0.1,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GLM-4 Plus",
@@ -341,7 +341,7 @@
       "series": "GLM",
       "input_price_cny": 0.1,
       "output_price_cny": 0.1,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "IBM: Granite 4.0 Micro",
@@ -350,7 +350,7 @@
       "series": "Other",
       "input_price_cny": 0.12,
       "output_price_cny": 0.81,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.1 8B Instruct",
@@ -359,7 +359,7 @@
       "series": "Llama",
       "input_price_cny": 0.14,
       "output_price_cny": 0.22,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Nemo",
@@ -368,7 +368,7 @@
       "series": "Mistral",
       "input_price_cny": 0.14,
       "output_price_cny": 0.22,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DouBao 1.5 Lite",
@@ -377,7 +377,7 @@
       "series": "DouBao",
       "input_price_cny": 0.15,
       "output_price_cny": 0.58,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DouBao 1.5-Vision",
@@ -386,7 +386,7 @@
       "series": "DouBao",
       "input_price_cny": 0.15,
       "output_price_cny": 0.58,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.2 1B Instruct",
@@ -395,7 +395,7 @@
       "series": "Llama",
       "input_price_cny": 0.2,
       "output_price_cny": 1.46,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: gpt-oss-20b",
@@ -404,7 +404,7 @@
       "series": "GPT",
       "input_price_cny": 0.21,
       "output_price_cny": 1.02,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Turbo",
@@ -413,7 +413,7 @@
       "series": "Qwen",
       "input_price_cny": 0.22,
       "output_price_cny": 0.44,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "LiquidAI: LFM2-24B-A2B",
@@ -422,7 +422,7 @@
       "series": "Other",
       "input_price_cny": 0.22,
       "output_price_cny": 0.87,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Amazon: Nova Micro 1.0",
@@ -431,7 +431,7 @@
       "series": "Other",
       "input_price_cny": 0.25,
       "output_price_cny": 1.02,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Cohere: Command R7B (12-2024)",
@@ -440,7 +440,7 @@
       "series": "Other",
       "input_price_cny": 0.27,
       "output_price_cny": 1.09,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: gpt-oss-120b",
@@ -449,7 +449,7 @@
       "series": "GPT",
       "input_price_cny": 0.28,
       "output_price_cny": 1.3,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen2.5 7B Instruct",
@@ -458,7 +458,7 @@
       "series": "Qwen",
       "input_price_cny": 0.29,
       "output_price_cny": 0.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Sao10K: Llama 3 8B Lunaris",
@@ -467,7 +467,7 @@
       "series": "Llama",
       "input_price_cny": 0.29,
       "output_price_cny": 0.36,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Arcee AI: Trinity Mini",
@@ -476,7 +476,7 @@
       "series": "Other",
       "input_price_cny": 0.33,
       "output_price_cny": 1.09,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
@@ -485,7 +485,7 @@
       "series": "Qwen",
       "input_price_cny": 0.35,
       "output_price_cny": 1.4,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Longcat",
@@ -494,7 +494,7 @@
       "series": "Longcat",
       "input_price_cny": 0.36,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax M1-Lite",
@@ -503,7 +503,7 @@
       "series": "MiniMax",
       "input_price_cny": 0.36,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "IBM: Granite 4.1 8B",
@@ -512,7 +512,7 @@
       "series": "Other",
       "input_price_cny": 0.36,
       "output_price_cny": 0.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3 Nano 30B A3B",
@@ -521,7 +521,7 @@
       "series": "Other",
       "input_price_cny": 0.36,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5 Nano",
@@ -530,7 +530,7 @@
       "series": "GPT",
       "input_price_cny": 0.36,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 8B",
@@ -539,7 +539,7 @@
       "series": "Qwen",
       "input_price_cny": 0.36,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 3 4B",
@@ -548,7 +548,7 @@
       "series": "Other",
       "input_price_cny": 0.36,
       "output_price_cny": 0.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 3 12B",
@@ -557,7 +557,7 @@
       "series": "Other",
       "input_price_cny": 0.36,
       "output_price_cny": 1.09,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Small 3",
@@ -566,7 +566,7 @@
       "series": "Mistral",
       "input_price_cny": 0.36,
       "output_price_cny": 0.58,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Step-2-Lite",
@@ -575,7 +575,7 @@
       "series": "StepFun",
       "input_price_cny": 0.36,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Xiaomi MiMo",
@@ -584,7 +584,7 @@
       "series": "MiMo",
       "input_price_cny": 0.36,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.2 3B Instruct",
@@ -593,7 +593,7 @@
       "series": "Llama",
       "input_price_cny": 0.37,
       "output_price_cny": 2.43,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 4 26B A4B ",
@@ -602,7 +602,7 @@
       "series": "Other",
       "input_price_cny": 0.43,
       "output_price_cny": 2.39,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 4.7 Flash",
@@ -611,7 +611,7 @@
       "series": "Other",
       "input_price_cny": 0.43,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 3n 4B",
@@ -620,7 +620,7 @@
       "series": "Other",
       "input_price_cny": 0.43,
       "output_price_cny": 0.87,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Amazon: Nova Lite 1.0",
@@ -629,7 +629,7 @@
       "series": "Other",
       "input_price_cny": 0.43,
       "output_price_cny": 1.74,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MythoMax 13B",
@@ -638,7 +638,7 @@
       "series": "Other",
       "input_price_cny": 0.43,
       "output_price_cny": 0.43,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5-Flash",
@@ -647,7 +647,7 @@
       "series": "Qwen",
       "input_price_cny": 0.47,
       "output_price_cny": 1.89,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Microsoft: Phi 4",
@@ -656,7 +656,7 @@
       "series": "Other",
       "input_price_cny": 0.47,
       "output_price_cny": 1.02,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Tencent: Hy3 preview",
@@ -665,7 +665,7 @@
       "series": "Other",
       "input_price_cny": 0.48,
       "output_price_cny": 1.89,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "KAT-Coder",
@@ -674,7 +674,7 @@
       "series": "KAT",
       "input_price_cny": 0.5,
       "output_price_cny": 2.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Coder",
@@ -683,7 +683,7 @@
       "series": "Qwen",
       "input_price_cny": 0.51,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
@@ -692,7 +692,7 @@
       "series": "Qwen",
       "input_price_cny": 0.51,
       "output_price_cny": 1.96,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "inclusionAI: Ring-2.6-1T",
@@ -701,7 +701,7 @@
       "series": "Other",
       "input_price_cny": 0.54,
       "output_price_cny": 4.53,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "inclusionAI: Ling-2.6-1T",
@@ -710,7 +710,7 @@
       "series": "Other",
       "input_price_cny": 0.54,
       "output_price_cny": 4.53,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "ByteDance Seed: Seed 1.6 Flash",
@@ -719,7 +719,7 @@
       "series": "Other",
       "input_price_cny": 0.54,
       "output_price_cny": 2.17,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: gpt-oss-safeguard-20b",
@@ -728,7 +728,7 @@
       "series": "GPT",
       "input_price_cny": 0.54,
       "output_price_cny": 2.17,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Small 3.2 24B",
@@ -737,7 +737,7 @@
       "series": "Mistral",
       "input_price_cny": 0.54,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Plus",
@@ -746,7 +746,7 @@
       "series": "Qwen",
       "input_price_cny": 0.58,
       "output_price_cny": 1.74,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DouBao 1.5 Pro",
@@ -755,7 +755,7 @@
       "series": "DouBao",
       "input_price_cny": 0.58,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Microsoft: Phi 4 Mini Instruct",
@@ -764,7 +764,7 @@
       "series": "Other",
       "input_price_cny": 0.58,
       "output_price_cny": 2.54,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 VL 8B Instruct",
@@ -773,7 +773,7 @@
       "series": "Qwen",
       "input_price_cny": 0.58,
       "output_price_cny": 3.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 30B A3B Thinking 2507",
@@ -782,7 +782,7 @@
       "series": "Qwen",
       "input_price_cny": 0.58,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 32B",
@@ -791,7 +791,7 @@
       "series": "Qwen",
       "input_price_cny": 0.58,
       "output_price_cny": 2.03,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 3 27B",
@@ -800,7 +800,7 @@
       "series": "Other",
       "input_price_cny": 0.58,
       "output_price_cny": 1.16,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Plus",
@@ -809,7 +809,7 @@
       "series": "Qwen",
       "input_price_cny": 0.58,
       "output_price_cny": 1.74,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V4 Flash",
@@ -818,7 +818,7 @@
       "series": "DeepSeek",
       "input_price_cny": 0.65,
       "output_price_cny": 1.3,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3 Super",
@@ -827,7 +827,7 @@
       "series": "Other",
       "input_price_cny": 0.65,
       "output_price_cny": 3.26,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "StepFun: Step 3.5 Flash",
@@ -836,7 +836,7 @@
       "series": "Other",
       "input_price_cny": 0.65,
       "output_price_cny": 2.17,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
@@ -845,7 +845,7 @@
       "series": "Qwen",
       "input_price_cny": 0.65,
       "output_price_cny": 7.98,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
@@ -854,7 +854,7 @@
       "series": "Qwen",
       "input_price_cny": 0.65,
       "output_price_cny": 0.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Next 80B A3B Thinking",
@@ -863,7 +863,7 @@
       "series": "Qwen",
       "input_price_cny": 0.71,
       "output_price_cny": 5.66,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Poolside: Laguna XS.2",
@@ -872,7 +872,7 @@
       "series": "Other",
       "input_price_cny": 0.72,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Reka Edge",
@@ -881,7 +881,7 @@
       "series": "Other",
       "input_price_cny": 0.72,
       "output_price_cny": 0.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5-9B",
@@ -890,7 +890,7 @@
       "series": "Qwen",
       "input_price_cny": 0.72,
       "output_price_cny": 1.09,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "ByteDance Seed: Seed-2.0-Mini",
@@ -899,7 +899,7 @@
       "series": "Other",
       "input_price_cny": 0.72,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Ministral 3 3B 2512",
@@ -908,7 +908,7 @@
       "series": "Mistral",
       "input_price_cny": 0.72,
       "output_price_cny": 0.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Voxtral Small 24B 2507",
@@ -917,7 +917,7 @@
       "series": "Mistral",
       "input_price_cny": 0.72,
       "output_price_cny": 2.17,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
@@ -926,7 +926,7 @@
       "series": "Gemini",
       "input_price_cny": 0.72,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 235B A22B Thinking 2507",
@@ -935,7 +935,7 @@
       "series": "Qwen",
       "input_price_cny": 0.72,
       "output_price_cny": 0.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "ByteDance: UI-TARS 7B ",
@@ -944,7 +944,7 @@
       "series": "Other",
       "input_price_cny": 0.72,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 2.5 Flash Lite",
@@ -953,7 +953,7 @@
       "series": "Gemini",
       "input_price_cny": 0.72,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 14B",
@@ -962,7 +962,7 @@
       "series": "Qwen",
       "input_price_cny": 0.72,
       "output_price_cny": 1.74,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4.1 Nano",
@@ -971,7 +971,7 @@
       "series": "GPT",
       "input_price_cny": 0.72,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 4 Scout",
@@ -980,7 +980,7 @@
       "series": "Llama",
       "input_price_cny": 0.72,
       "output_price_cny": 2.17,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Reka Flash 3",
@@ -989,7 +989,7 @@
       "series": "Other",
       "input_price_cny": 0.72,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.3 70B Instruct",
@@ -998,7 +998,7 @@
       "series": "Llama",
       "input_price_cny": 0.72,
       "output_price_cny": 2.32,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Gemini 2.0 Flash",
@@ -1007,7 +1007,7 @@
       "series": "Gemini",
       "input_price_cny": 0.73,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax M1",
@@ -1016,7 +1016,7 @@
       "series": "MiniMax",
       "input_price_cny": 0.73,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Step-2",
@@ -1025,7 +1025,7 @@
       "series": "StepFun",
       "input_price_cny": 0.73,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Step-1.5V",
@@ -1034,7 +1034,7 @@
       "series": "StepFun",
       "input_price_cny": 0.73,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GLM-Z1",
@@ -1043,7 +1043,7 @@
       "series": "GLM",
       "input_price_cny": 0.73,
       "output_price_cny": 0.73,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 VL 32B Instruct",
@@ -1052,7 +1052,7 @@
       "series": "Qwen",
       "input_price_cny": 0.75,
       "output_price_cny": 3.02,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Coder Next",
@@ -1061,7 +1061,7 @@
       "series": "Qwen",
       "input_price_cny": 0.8,
       "output_price_cny": 5.8,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 VL 8B Thinking",
@@ -1070,7 +1070,7 @@
       "series": "Qwen",
       "input_price_cny": 0.85,
       "output_price_cny": 9.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 4 31B",
@@ -1079,7 +1079,7 @@
       "series": "Other",
       "input_price_cny": 0.87,
       "output_price_cny": 2.54,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 30B A3B",
@@ -1088,7 +1088,7 @@
       "series": "Qwen",
       "input_price_cny": 0.87,
       "output_price_cny": 3.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 VL 30B A3B Thinking",
@@ -1097,7 +1097,7 @@
       "series": "Qwen",
       "input_price_cny": 0.94,
       "output_price_cny": 11.31,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
@@ -1106,7 +1106,7 @@
       "series": "Qwen",
       "input_price_cny": 0.94,
       "output_price_cny": 3.77,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Nous: Hermes 4 70B",
@@ -1115,7 +1115,7 @@
       "series": "Other",
       "input_price_cny": 0.94,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 4.5 Air",
@@ -1124,7 +1124,7 @@
       "series": "Other",
       "input_price_cny": 0.94,
       "output_price_cny": 6.16,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.6 35B A3B",
@@ -1133,7 +1133,7 @@
       "series": "Qwen",
       "input_price_cny": 1.02,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Xiaomi: MiMo-V2.5",
@@ -1142,7 +1142,7 @@
       "series": "Other",
       "input_price_cny": 1.02,
       "output_price_cny": 2.03,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5-35B-A3B",
@@ -1151,7 +1151,7 @@
       "series": "Qwen",
       "input_price_cny": 1.02,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Tencent: Hunyuan A13B Instruct",
@@ -1160,7 +1160,7 @@
       "series": "Other",
       "input_price_cny": 1.02,
       "output_price_cny": 4.13,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3 8B Instruct",
@@ -1169,7 +1169,7 @@
       "series": "Llama",
       "input_price_cny": 1.02,
       "output_price_cny": 1.02,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -1178,7 +1178,7 @@
       "series": "Gemini",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Perceptron: Perceptron Mk1",
@@ -1187,7 +1187,7 @@
       "series": "Other",
       "input_price_cny": 1.09,
       "output_price_cny": 10.88,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Small 4",
@@ -1196,7 +1196,7 @@
       "series": "Mistral",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax M2.5",
@@ -1205,7 +1205,7 @@
       "series": "Other",
       "input_price_cny": 1.09,
       "output_price_cny": 6.52,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Upstage: Solar Pro 3",
@@ -1214,7 +1214,7 @@
       "series": "Other",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "EssentialAI: Rnj 1 Instruct",
@@ -1223,7 +1223,7 @@
       "series": "Other",
       "input_price_cny": 1.09,
       "output_price_cny": 1.09,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Ministral 3 8B 2512",
@@ -1232,7 +1232,7 @@
       "series": "Mistral",
       "input_price_cny": 1.09,
       "output_price_cny": 1.09,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "AllenAI: Olmo 3 32B Think",
@@ -1241,7 +1241,7 @@
       "series": "Other",
       "input_price_cny": 1.09,
       "output_price_cny": 3.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 4 Maverick",
@@ -1250,7 +1250,7 @@
       "series": "Llama",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o-mini Search Preview",
@@ -1259,7 +1259,7 @@
       "series": "GPT",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Cohere: Command R (08-2024)",
@@ -1268,7 +1268,7 @@
       "series": "Other",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o-mini (2024-07-18)",
@@ -1277,7 +1277,7 @@
       "series": "GPT",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o-mini",
@@ -1286,7 +1286,7 @@
       "series": "GPT",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -1295,7 +1295,7 @@
       "series": "Gemini",
       "input_price_cny": 1.09,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "TheDrummer: Rocinante 12B",
@@ -1304,7 +1304,7 @@
       "series": "Other",
       "input_price_cny": 1.23,
       "output_price_cny": 3.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama Guard 4 12B",
@@ -1313,7 +1313,7 @@
       "series": "Llama",
       "input_price_cny": 1.3,
       "output_price_cny": 1.3,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.6 Flash",
@@ -1322,7 +1322,7 @@
       "series": "Qwen",
       "input_price_cny": 1.36,
       "output_price_cny": 8.16,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5-27B",
@@ -1331,7 +1331,7 @@
       "series": "Qwen",
       "input_price_cny": 1.41,
       "output_price_cny": 11.31,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Coder Flash",
@@ -1340,7 +1340,7 @@
       "series": "Qwen",
       "input_price_cny": 1.41,
       "output_price_cny": 7.07,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "StepFun: Step 3.7 Flash",
@@ -1349,7 +1349,7 @@
       "series": "Other",
       "input_price_cny": 1.45,
       "output_price_cny": 8.34,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Poolside: Laguna M.1",
@@ -1358,7 +1358,7 @@
       "series": "Other",
       "input_price_cny": 1.45,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.4 Nano",
@@ -1367,7 +1367,7 @@
       "series": "GPT",
       "input_price_cny": 1.45,
       "output_price_cny": 9.06,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Ministral 3 14B 2512",
@@ -1376,7 +1376,7 @@
       "series": "Mistral",
       "input_price_cny": 1.45,
       "output_price_cny": 1.45,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Prime Intellect: INTELLECT-3",
@@ -1385,7 +1385,7 @@
       "series": "Other",
       "input_price_cny": 1.45,
       "output_price_cny": 7.98,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 VL 235B A22B Instruct",
@@ -1394,7 +1394,7 @@
       "series": "Qwen",
       "input_price_cny": 1.45,
       "output_price_cny": 6.38,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V3 0324",
@@ -1403,7 +1403,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.45,
       "output_price_cny": 5.58,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Saba",
@@ -1412,7 +1412,7 @@
       "series": "Mistral",
       "input_price_cny": 1.45,
       "output_price_cny": 4.35,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax-01",
@@ -1421,7 +1421,7 @@
       "series": "Other",
       "input_price_cny": 1.45,
       "output_price_cny": 7.98,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V3",
@@ -1430,7 +1430,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.45,
       "output_price_cny": 5.8,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V3.1",
@@ -1439,7 +1439,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.52,
       "output_price_cny": 5.73,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Arcee AI: Trinity Large Thinking",
@@ -1448,7 +1448,7 @@
       "series": "Other",
       "input_price_cny": 1.59,
       "output_price_cny": 6.16,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Coder 480B A35B",
@@ -1457,7 +1457,7 @@
       "series": "Qwen",
       "input_price_cny": 1.59,
       "output_price_cny": 13.05,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V3.2",
@@ -1466,7 +1466,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.66,
       "output_price_cny": 2.49,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1475,7 +1475,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.75,
       "output_price_cny": 7.1,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1484,7 +1484,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.78,
       "output_price_cny": 7.2,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1493,7 +1493,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.8,
       "output_price_cny": 7.3,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 3.1 Flash Lite",
@@ -1502,7 +1502,7 @@
       "series": "Gemini",
       "input_price_cny": 1.81,
       "output_price_cny": 10.88,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax M2.7",
@@ -1511,7 +1511,7 @@
       "series": "Other",
       "input_price_cny": 1.81,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "ByteDance Seed: Seed-2.0-Lite",
@@ -1520,7 +1520,7 @@
       "series": "Other",
       "input_price_cny": 1.81,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Inception: Mercury 2",
@@ -1529,7 +1529,7 @@
       "series": "Other",
       "input_price_cny": 1.81,
       "output_price_cny": 5.44,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 3.1 Flash Lite Preview",
@@ -1538,7 +1538,7 @@
       "series": "Gemini",
       "input_price_cny": 1.81,
       "output_price_cny": 10.88,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "ByteDance Seed: Seed 1.6",
@@ -1547,7 +1547,7 @@
       "series": "Other",
       "input_price_cny": 1.81,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.1-Codex-Mini",
@@ -1556,7 +1556,7 @@
       "series": "GPT",
       "input_price_cny": 1.81,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5 Mini",
@@ -1565,7 +1565,7 @@
       "series": "GPT",
       "input_price_cny": 1.81,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude 3 Haiku",
@@ -1574,7 +1574,7 @@
       "series": "Claude",
       "input_price_cny": 1.81,
       "output_price_cny": 9.06,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1583,7 +1583,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.85,
       "output_price_cny": 7.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax M2",
@@ -1592,7 +1592,7 @@
       "series": "Other",
       "input_price_cny": 1.85,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1601,7 +1601,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.88,
       "output_price_cny": 7.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5-122B-A10B",
@@ -1610,7 +1610,7 @@
       "series": "Qwen",
       "input_price_cny": 1.89,
       "output_price_cny": 15.08,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5 Plus 2026-02-15",
@@ -1619,7 +1619,7 @@
       "series": "Qwen",
       "input_price_cny": 1.89,
       "output_price_cny": 11.31,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 VL 235B A22B Thinking",
@@ -1628,7 +1628,7 @@
       "series": "Qwen",
       "input_price_cny": 1.89,
       "output_price_cny": 18.85,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen Plus 0728 (thinking)",
@@ -1637,7 +1637,7 @@
       "series": "Qwen",
       "input_price_cny": 1.89,
       "output_price_cny": 5.66,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen Plus 0728",
@@ -1646,7 +1646,7 @@
       "series": "Qwen",
       "input_price_cny": 1.89,
       "output_price_cny": 5.66,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen-Plus",
@@ -1655,7 +1655,7 @@
       "series": "Qwen",
       "input_price_cny": 1.89,
       "output_price_cny": 5.66,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1664,7 +1664,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.9,
       "output_price_cny": 7.8,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1673,7 +1673,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.95,
       "output_price_cny": 7.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1682,7 +1682,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.95,
       "output_price_cny": 7.95,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1691,7 +1691,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.96,
       "output_price_cny": 7.98,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3-0324",
@@ -1700,7 +1700,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.96,
       "output_price_cny": 7.98,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V3.2 Exp",
@@ -1709,7 +1709,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.96,
       "output_price_cny": 2.97,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V3.1 Terminus",
@@ -1718,7 +1718,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.96,
       "output_price_cny": 6.89,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1727,7 +1727,7 @@
       "series": "DeepSeek",
       "input_price_cny": 1.96,
       "output_price_cny": 7.98,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek V3",
@@ -1736,7 +1736,7 @@
       "series": "DeepSeek",
       "input_price_cny": 2.0,
       "output_price_cny": 8.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.6 27B",
@@ -1745,7 +1745,7 @@
       "series": "Qwen",
       "input_price_cny": 2.09,
       "output_price_cny": 22.98,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax M2.1",
@@ -1754,7 +1754,7 @@
       "series": "Other",
       "input_price_cny": 2.1,
       "output_price_cny": 6.89,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax M3",
@@ -1763,7 +1763,7 @@
       "series": "Other",
       "input_price_cny": 2.17,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5 Plus 2026-04-20",
@@ -1772,7 +1772,7 @@
       "series": "Qwen",
       "input_price_cny": 2.17,
       "output_price_cny": 13.05,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Kwaipilot: KAT-Coder-Pro V2",
@@ -1781,7 +1781,7 @@
       "series": "Other",
       "input_price_cny": 2.17,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax M2-her",
@@ -1790,7 +1790,7 @@
       "series": "Other",
       "input_price_cny": 2.17,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 4.6V",
@@ -1799,7 +1799,7 @@
       "series": "Other",
       "input_price_cny": 2.17,
       "output_price_cny": 6.52,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Amazon: Nova 2 Lite",
@@ -1808,7 +1808,7 @@
       "series": "Other",
       "input_price_cny": 2.17,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
@@ -1817,7 +1817,7 @@
       "series": "Gemini",
       "input_price_cny": 2.17,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "TheDrummer: Cydonia 24B V4.1",
@@ -1826,7 +1826,7 @@
       "series": "Other",
       "input_price_cny": 2.17,
       "output_price_cny": 3.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Codestral 2508",
@@ -1835,7 +1835,7 @@
       "series": "Mistral",
       "input_price_cny": 2.17,
       "output_price_cny": 6.52,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 2.5 Flash",
@@ -1844,7 +1844,7 @@
       "series": "Gemini",
       "input_price_cny": 2.17,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Kimi K2-Turbo",
@@ -1853,7 +1853,7 @@
       "series": "Kimi",
       "input_price_cny": 2.18,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.7 Plus",
@@ -1862,7 +1862,7 @@
       "series": "Qwen",
       "input_price_cny": 2.32,
       "output_price_cny": 9.28,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.6 Plus",
@@ -1871,7 +1871,7 @@
       "series": "Qwen",
       "input_price_cny": 2.36,
       "output_price_cny": 14.14,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.2 11B Vision Instruct",
@@ -1880,7 +1880,7 @@
       "series": "Llama",
       "input_price_cny": 2.5,
       "output_price_cny": 2.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Small 3.1 24B",
@@ -1889,7 +1889,7 @@
       "series": "Mistral",
       "input_price_cny": 2.54,
       "output_price_cny": 4.02,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen2.5 72B Instruct",
@@ -1898,7 +1898,7 @@
       "series": "Qwen",
       "input_price_cny": 2.61,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MoonshotAI: Kimi K2.5",
@@ -1907,7 +1907,7 @@
       "series": "Other",
       "input_price_cny": 2.72,
       "output_price_cny": 14.68,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.5 397B A17B",
@@ -1916,7 +1916,7 @@
       "series": "Qwen",
       "input_price_cny": 2.79,
       "output_price_cny": 17.76,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Max",
@@ -1925,7 +1925,7 @@
       "series": "Qwen",
       "input_price_cny": 2.9,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Max-Latest",
@@ -1934,7 +1934,7 @@
       "series": "Qwen",
       "input_price_cny": 2.9,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Max",
@@ -1943,7 +1943,7 @@
       "series": "Qwen",
       "input_price_cny": 2.9,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 4.7",
@@ -1952,7 +1952,7 @@
       "series": "Other",
       "input_price_cny": 2.9,
       "output_price_cny": 12.69,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Devstral 2 2512",
@@ -1961,7 +1961,7 @@
       "series": "Mistral",
       "input_price_cny": 2.9,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
@@ -1970,7 +1970,7 @@
       "series": "Llama",
       "input_price_cny": 2.9,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Medium 3.1",
@@ -1979,7 +1979,7 @@
       "series": "Mistral",
       "input_price_cny": 2.9,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MiniMax: MiniMax M1",
@@ -1988,7 +1988,7 @@
       "series": "Other",
       "input_price_cny": 2.9,
       "output_price_cny": 15.95,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Medium 3",
@@ -1997,7 +1997,7 @@
       "series": "Mistral",
       "input_price_cny": 2.9,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4.1 Mini",
@@ -2006,7 +2006,7 @@
       "series": "GPT",
       "input_price_cny": 2.9,
       "output_price_cny": 11.6,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "TheDrummer: UnslopNemo 12B",
@@ -2015,7 +2015,7 @@
       "series": "Other",
       "input_price_cny": 2.9,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Meta: Llama 3.1 70B Instruct",
@@ -2024,7 +2024,7 @@
       "series": "Llama",
       "input_price_cny": 2.9,
       "output_price_cny": 2.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen-Max",
@@ -2033,7 +2033,7 @@
       "series": "Qwen",
       "input_price_cny": 2.9,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Baidu: ERNIE 4.5 VL 424B A47B ",
@@ -2042,7 +2042,7 @@
       "series": "Other",
       "input_price_cny": 3.04,
       "output_price_cny": 9.06,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 4.6",
@@ -2051,7 +2051,7 @@
       "series": "Other",
       "input_price_cny": 3.12,
       "output_price_cny": 12.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: DeepSeek V4 Pro",
@@ -2060,7 +2060,7 @@
       "series": "DeepSeek",
       "input_price_cny": 3.15,
       "output_price_cny": 6.31,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Xiaomi: MiMo-V2.5-Pro",
@@ -2069,7 +2069,7 @@
       "series": "Other",
       "input_price_cny": 3.15,
       "output_price_cny": 6.31,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "ReMM SLERP 13B",
@@ -2078,7 +2078,7 @@
       "series": "Other",
       "input_price_cny": 3.26,
       "output_price_cny": 4.71,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 235B A22B",
@@ -2087,7 +2087,7 @@
       "series": "Qwen",
       "input_price_cny": 3.3,
       "output_price_cny": 13.19,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
@@ -2096,7 +2096,7 @@
       "series": "Gemini",
       "input_price_cny": 3.62,
       "output_price_cny": 21.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "NVIDIA: Nemotron 3 Ultra",
@@ -2105,7 +2105,7 @@
       "series": "Other",
       "input_price_cny": 3.62,
       "output_price_cny": 15.95,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
@@ -2114,7 +2114,7 @@
       "series": "Gemini",
       "input_price_cny": 3.62,
       "output_price_cny": 21.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 3 Flash Preview",
@@ -2123,7 +2123,7 @@
       "series": "Gemini",
       "input_price_cny": 3.62,
       "output_price_cny": 21.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Large 3 2512",
@@ -2132,7 +2132,7 @@
       "series": "Mistral",
       "input_price_cny": 3.62,
       "output_price_cny": 10.88,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: R1 0528",
@@ -2141,7 +2141,7 @@
       "series": "DeepSeek",
       "input_price_cny": 3.62,
       "output_price_cny": 15.59,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Arcee AI: Coder Large",
@@ -2150,7 +2150,7 @@
       "series": "Other",
       "input_price_cny": 3.62,
       "output_price_cny": 5.8,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-3.5 Turbo",
@@ -2159,7 +2159,7 @@
       "series": "GPT",
       "input_price_cny": 3.62,
       "output_price_cny": 10.88,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Kimi K2",
@@ -2168,7 +2168,7 @@
       "series": "Kimi",
       "input_price_cny": 3.63,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Kimi K2",
@@ -2177,7 +2177,7 @@
       "series": "Kimi",
       "input_price_cny": 3.63,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek R1",
@@ -2186,7 +2186,7 @@
       "series": "DeepSeek",
       "input_price_cny": 3.8,
       "output_price_cny": 15.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek R1",
@@ -2195,7 +2195,7 @@
       "series": "DeepSeek",
       "input_price_cny": 3.99,
       "output_price_cny": 15.88,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "TheDrummer: Skyfall 36B V2",
@@ -2204,7 +2204,7 @@
       "series": "Other",
       "input_price_cny": 3.99,
       "output_price_cny": 5.8,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek R1",
@@ -2213,7 +2213,7 @@
       "series": "DeepSeek",
       "input_price_cny": 3.99,
       "output_price_cny": 15.88,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MoonshotAI: Kimi K2 0711",
@@ -2222,7 +2222,7 @@
       "series": "Other",
       "input_price_cny": 4.13,
       "output_price_cny": 16.67,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 5",
@@ -2231,7 +2231,7 @@
       "series": "Other",
       "input_price_cny": 4.35,
       "output_price_cny": 13.92,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Writer: Palmyra X5",
@@ -2240,7 +2240,7 @@
       "series": "Other",
       "input_price_cny": 4.35,
       "output_price_cny": 43.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT Audio Mini",
@@ -2249,7 +2249,7 @@
       "series": "GPT",
       "input_price_cny": 4.35,
       "output_price_cny": 17.4,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MoonshotAI: Kimi K2 Thinking",
@@ -2258,7 +2258,7 @@
       "series": "Other",
       "input_price_cny": 4.35,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MoonshotAI: Kimi K2 0905",
@@ -2267,7 +2267,7 @@
       "series": "Other",
       "input_price_cny": 4.35,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 4.5V",
@@ -2276,7 +2276,7 @@
       "series": "Other",
       "input_price_cny": 4.35,
       "output_price_cny": 13.05,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 4.5",
@@ -2285,7 +2285,7 @@
       "series": "Other",
       "input_price_cny": 4.35,
       "output_price_cny": 15.95,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "WizardLM-2 8x22B",
@@ -2294,7 +2294,7 @@
       "series": "Other",
       "input_price_cny": 4.5,
       "output_price_cny": 4.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Coder Plus",
@@ -2303,7 +2303,7 @@
       "series": "Qwen",
       "input_price_cny": 4.71,
       "output_price_cny": 23.56,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Sao10K: Llama 3.3 Euryale 70B",
@@ -2312,7 +2312,7 @@
       "series": "Llama",
       "input_price_cny": 4.71,
       "output_price_cny": 5.44,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemma 2 27B",
@@ -2321,7 +2321,7 @@
       "series": "Other",
       "input_price_cny": 4.71,
       "output_price_cny": 4.71,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen2.5 Coder 32B Instruct",
@@ -2330,7 +2330,7 @@
       "series": "Qwen",
       "input_price_cny": 4.79,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MoonshotAI Kimi Latest",
@@ -2339,7 +2339,7 @@
       "series": "Other",
       "input_price_cny": 4.86,
       "output_price_cny": 25.38,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "MoonshotAI: Kimi K2.6",
@@ -2348,7 +2348,16 @@
       "series": "Other",
       "input_price_cny": 4.86,
       "output_price_cny": 25.38,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
+    },
+    {
+      "model_name": "MoonshotAI: Kimi K2.7 Code",
+      "provider": "OpenRouter",
+      "category": "proxy",
+      "series": "Other",
+      "input_price_cny": 4.93,
+      "output_price_cny": 24.72,
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "AionLabs: Aion-1.0-Mini",
@@ -2357,7 +2366,7 @@
       "series": "Other",
       "input_price_cny": 5.07,
       "output_price_cny": 10.15,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: R1",
@@ -2366,7 +2375,7 @@
       "series": "DeepSeek",
       "input_price_cny": 5.07,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Nous: Hermes 3 70B Instruct",
@@ -2375,16 +2384,7 @@
       "series": "Other",
       "input_price_cny": 5.07,
       "output_price_cny": 5.07,
-      "last_updated": "2026-06-19T15:44:56Z"
-    },
-    {
-      "model_name": "MoonshotAI: Kimi K2.7 Code",
-      "provider": "OpenRouter",
-      "category": "proxy",
-      "series": "Other",
-      "input_price_cny": 5.37,
-      "output_price_cny": 25.38,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI GPT Mini Latest",
@@ -2393,7 +2393,7 @@
       "series": "GPT",
       "input_price_cny": 5.44,
       "output_price_cny": 32.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.4 Mini",
@@ -2402,7 +2402,7 @@
       "series": "GPT",
       "input_price_cny": 5.44,
       "output_price_cny": 32.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Arcee AI: Virtuoso Large",
@@ -2411,7 +2411,7 @@
       "series": "Other",
       "input_price_cny": 5.44,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mancer: Weaver (alpha)",
@@ -2420,7 +2420,7 @@
       "series": "Other",
       "input_price_cny": 5.44,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Max Thinking",
@@ -2429,7 +2429,7 @@
       "series": "Qwen",
       "input_price_cny": 5.66,
       "output_price_cny": 28.27,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3 Max",
@@ -2438,7 +2438,7 @@
       "series": "Qwen",
       "input_price_cny": 5.66,
       "output_price_cny": 28.27,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2447,7 +2447,7 @@
       "series": "Claude",
       "input_price_cny": 5.8,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2456,7 +2456,7 @@
       "series": "Claude",
       "input_price_cny": 5.8,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2465,7 +2465,7 @@
       "series": "Claude",
       "input_price_cny": 5.8,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "AionLabs: Aion-2.0",
@@ -2474,7 +2474,7 @@
       "series": "Other",
       "input_price_cny": 5.8,
       "output_price_cny": 11.6,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Morph: Morph V3 Fast",
@@ -2483,7 +2483,7 @@
       "series": "Other",
       "input_price_cny": 5.8,
       "output_price_cny": 8.7,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "AionLabs: Aion-RP 1.0 (8B)",
@@ -2492,7 +2492,7 @@
       "series": "Other",
       "input_price_cny": 5.8,
       "output_price_cny": 11.6,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
@@ -2501,7 +2501,7 @@
       "series": "Qwen",
       "input_price_cny": 5.8,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "DeepSeek: R1 Distill Llama 70B",
@@ -2510,7 +2510,7 @@
       "series": "DeepSeek",
       "input_price_cny": 5.8,
       "output_price_cny": 5.8,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Amazon: Nova Pro 1.0",
@@ -2519,7 +2519,7 @@
       "series": "Other",
       "input_price_cny": 5.8,
       "output_price_cny": 23.2,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude 3.5 Haiku",
@@ -2528,7 +2528,7 @@
       "series": "Claude",
       "input_price_cny": 5.8,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2537,7 +2537,7 @@
       "series": "Claude",
       "input_price_cny": 5.8,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2546,7 +2546,7 @@
       "series": "Claude",
       "input_price_cny": 5.8,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2555,7 +2555,7 @@
       "series": "Claude",
       "input_price_cny": 5.85,
       "output_price_cny": 29.2,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2564,7 +2564,7 @@
       "series": "Claude",
       "input_price_cny": 5.9,
       "output_price_cny": 29.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2573,7 +2573,7 @@
       "series": "Claude",
       "input_price_cny": 5.9,
       "output_price_cny": 29.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Haiku 4.5",
@@ -2582,7 +2582,7 @@
       "series": "Claude",
       "input_price_cny": 6.0,
       "output_price_cny": 30.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Relace: Relace Apply 3",
@@ -2591,7 +2591,7 @@
       "series": "Other",
       "input_price_cny": 6.16,
       "output_price_cny": 9.06,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Switchpoint Router",
@@ -2600,7 +2600,7 @@
       "series": "Other",
       "input_price_cny": 6.16,
       "output_price_cny": 24.65,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
@@ -2609,7 +2609,7 @@
       "series": "Llama",
       "input_price_cny": 6.16,
       "output_price_cny": 6.16,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Morph: Morph V3 Large",
@@ -2618,7 +2618,7 @@
       "series": "Other",
       "input_price_cny": 6.52,
       "output_price_cny": 13.77,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 5.1",
@@ -2627,7 +2627,7 @@
       "series": "Other",
       "input_price_cny": 7.1,
       "output_price_cny": 22.33,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "xAI: Grok Build 0.1",
@@ -2636,7 +2636,7 @@
       "series": "Other",
       "input_price_cny": 7.25,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic Claude Haiku Latest",
@@ -2645,7 +2645,7 @@
       "series": "Claude",
       "input_price_cny": 7.25,
       "output_price_cny": 36.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Relace: Relace Search",
@@ -2654,7 +2654,7 @@
       "series": "Other",
       "input_price_cny": 7.25,
       "output_price_cny": 21.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Haiku 4.5",
@@ -2663,7 +2663,7 @@
       "series": "Claude",
       "input_price_cny": 7.25,
       "output_price_cny": 36.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Nous: Hermes 4 405B",
@@ -2672,7 +2672,7 @@
       "series": "Other",
       "input_price_cny": 7.25,
       "output_price_cny": 21.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Perplexity: Sonar",
@@ -2681,7 +2681,7 @@
       "series": "Other",
       "input_price_cny": 7.25,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Nous: Hermes 3 405B Instruct",
@@ -2690,7 +2690,7 @@
       "series": "Other",
       "input_price_cny": 7.25,
       "output_price_cny": 7.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-3.5 Turbo (older v0613)",
@@ -2699,7 +2699,7 @@
       "series": "GPT",
       "input_price_cny": 7.25,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.6 Max Preview",
@@ -2708,7 +2708,7 @@
       "series": "Qwen",
       "input_price_cny": 7.54,
       "output_price_cny": 45.24,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o4 Mini High",
@@ -2717,7 +2717,7 @@
       "series": "GPT",
       "input_price_cny": 7.98,
       "output_price_cny": 31.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o4 Mini",
@@ -2726,7 +2726,7 @@
       "series": "GPT",
       "input_price_cny": 7.98,
       "output_price_cny": 31.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o3 Mini High",
@@ -2735,7 +2735,7 @@
       "series": "GPT",
       "input_price_cny": 7.98,
       "output_price_cny": 31.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o3 Mini",
@@ -2744,7 +2744,7 @@
       "series": "GPT",
       "input_price_cny": 7.98,
       "output_price_cny": 31.9,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 5.2",
@@ -2753,7 +2753,7 @@
       "series": "Other",
       "input_price_cny": 8.7,
       "output_price_cny": 29.72,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Z.ai: GLM 5 Turbo",
@@ -2762,7 +2762,7 @@
       "series": "Other",
       "input_price_cny": 8.7,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Gemini 2.5 Pro",
@@ -2771,7 +2771,7 @@
       "series": "Gemini",
       "input_price_cny": 9.06,
       "output_price_cny": 36.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Qwen: Qwen3.7 Max",
@@ -2780,7 +2780,7 @@
       "series": "Qwen",
       "input_price_cny": 9.06,
       "output_price_cny": 27.19,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "xAI: Grok 4.3",
@@ -2789,7 +2789,7 @@
       "series": "Other",
       "input_price_cny": 9.06,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "xAI: Grok 4.20 Multi-Agent",
@@ -2798,7 +2798,7 @@
       "series": "Other",
       "input_price_cny": 9.06,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "xAI: Grok 4.20",
@@ -2807,7 +2807,7 @@
       "series": "Other",
       "input_price_cny": 9.06,
       "output_price_cny": 18.12,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.1-Codex-Max",
@@ -2816,7 +2816,7 @@
       "series": "GPT",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Deep Cogito: Cogito v2.1 671B",
@@ -2825,7 +2825,7 @@
       "series": "Other",
       "input_price_cny": 9.06,
       "output_price_cny": 9.06,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.1",
@@ -2834,7 +2834,7 @@
       "series": "GPT",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.1 Chat",
@@ -2843,7 +2843,7 @@
       "series": "GPT",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.1-Codex",
@@ -2852,7 +2852,7 @@
       "series": "GPT",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5 Codex",
@@ -2861,7 +2861,7 @@
       "series": "GPT",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5 Chat",
@@ -2870,7 +2870,7 @@
       "series": "GPT",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5",
@@ -2879,7 +2879,7 @@
       "series": "GPT",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 2.5 Pro",
@@ -2888,7 +2888,7 @@
       "series": "Gemini",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 2.5 Pro Preview 06-05",
@@ -2897,7 +2897,7 @@
       "series": "Gemini",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 2.5 Pro Preview 05-06",
@@ -2906,7 +2906,7 @@
       "series": "Gemini",
       "input_price_cny": 9.06,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Gemini 2.5 Pro",
@@ -2915,7 +2915,7 @@
       "series": "Gemini",
       "input_price_cny": 9.06,
       "output_price_cny": 36.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 3.5 Flash",
@@ -2924,7 +2924,7 @@
       "series": "Gemini",
       "input_price_cny": 10.88,
       "output_price_cny": 65.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mistral Medium 3.5",
@@ -2933,7 +2933,7 @@
       "series": "Mistral",
       "input_price_cny": 10.88,
       "output_price_cny": 54.38,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google Gemini Flash Latest",
@@ -2942,7 +2942,7 @@
       "series": "Gemini",
       "input_price_cny": 10.88,
       "output_price_cny": 65.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-3.5 Turbo Instruct",
@@ -2951,7 +2951,7 @@
       "series": "GPT",
       "input_price_cny": 10.88,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.3 Chat",
@@ -2960,7 +2960,7 @@
       "series": "GPT",
       "input_price_cny": 12.69,
       "output_price_cny": 101.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.3-Codex",
@@ -2969,7 +2969,7 @@
       "series": "GPT",
       "input_price_cny": 12.69,
       "output_price_cny": 101.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.2-Codex",
@@ -2978,7 +2978,7 @@
       "series": "GPT",
       "input_price_cny": 12.69,
       "output_price_cny": 101.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.2 Chat",
@@ -2987,7 +2987,7 @@
       "series": "GPT",
       "input_price_cny": 12.69,
       "output_price_cny": 101.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.2",
@@ -2996,7 +2996,7 @@
       "series": "GPT",
       "input_price_cny": 12.69,
       "output_price_cny": 101.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
@@ -3005,7 +3005,7 @@
       "series": "Gemini",
       "input_price_cny": 14.5,
       "output_price_cny": 87.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google Gemini Pro Latest",
@@ -3014,7 +3014,7 @@
       "series": "Gemini",
       "input_price_cny": 14.5,
       "output_price_cny": 87.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 3.1 Pro Preview Custom Tools",
@@ -3023,7 +3023,7 @@
       "series": "Gemini",
       "input_price_cny": 14.5,
       "output_price_cny": 87.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Gemini 3.1 Pro Preview",
@@ -3032,7 +3032,7 @@
       "series": "Gemini",
       "input_price_cny": 14.5,
       "output_price_cny": 87.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
@@ -3041,7 +3041,7 @@
       "series": "Gemini",
       "input_price_cny": 14.5,
       "output_price_cny": 87.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o4 Mini Deep Research",
@@ -3050,7 +3050,7 @@
       "series": "GPT",
       "input_price_cny": 14.5,
       "output_price_cny": 58.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "AI21: Jamba Large 1.7",
@@ -3059,7 +3059,7 @@
       "series": "Other",
       "input_price_cny": 14.5,
       "output_price_cny": 58.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o3",
@@ -3068,7 +3068,7 @@
       "series": "GPT",
       "input_price_cny": 14.5,
       "output_price_cny": 58.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4.1",
@@ -3077,7 +3077,7 @@
       "series": "GPT",
       "input_price_cny": 14.5,
       "output_price_cny": 58.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Perplexity: Sonar Reasoning Pro",
@@ -3086,7 +3086,7 @@
       "series": "Other",
       "input_price_cny": 14.5,
       "output_price_cny": 58.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Perplexity: Sonar Deep Research",
@@ -3095,7 +3095,7 @@
       "series": "Other",
       "input_price_cny": 14.5,
       "output_price_cny": 58.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral Large 2407",
@@ -3104,7 +3104,7 @@
       "series": "Mistral",
       "input_price_cny": 14.5,
       "output_price_cny": 43.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral: Mixtral 8x22B Instruct",
@@ -3113,7 +3113,7 @@
       "series": "Mistral",
       "input_price_cny": 14.5,
       "output_price_cny": 43.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Mistral Large",
@@ -3122,7 +3122,7 @@
       "series": "Mistral",
       "input_price_cny": 14.5,
       "output_price_cny": 43.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3131,7 +3131,7 @@
       "series": "GPT",
       "input_price_cny": 16.0,
       "output_price_cny": 64.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3140,7 +3140,7 @@
       "series": "GPT",
       "input_price_cny": 16.8,
       "output_price_cny": 67.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3149,7 +3149,7 @@
       "series": "GPT",
       "input_price_cny": 17.0,
       "output_price_cny": 68.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3158,7 +3158,7 @@
       "series": "GPT",
       "input_price_cny": 17.5,
       "output_price_cny": 70.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3167,7 +3167,7 @@
       "series": "GPT",
       "input_price_cny": 18.0,
       "output_price_cny": 72.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3176,7 +3176,7 @@
       "series": "GPT",
       "input_price_cny": 18.0,
       "output_price_cny": 72.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3185,7 +3185,7 @@
       "series": "GPT",
       "input_price_cny": 18.0,
       "output_price_cny": 72.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3194,7 +3194,7 @@
       "series": "GPT",
       "input_price_cny": 18.1,
       "output_price_cny": 72.4,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3203,7 +3203,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.4",
@@ -3212,7 +3212,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT Audio",
@@ -3221,7 +3221,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Amazon: Nova Premier 1.0",
@@ -3230,7 +3230,7 @@
       "series": "Other",
       "input_price_cny": 18.12,
       "output_price_cny": 90.62,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5 Image Mini",
@@ -3239,7 +3239,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 14.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Cohere: Command A",
@@ -3248,7 +3248,7 @@
       "series": "Other",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o Search Preview",
@@ -3257,7 +3257,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o (2024-11-20)",
@@ -3266,7 +3266,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Inflection: Inflection 3 Productivity",
@@ -3275,7 +3275,7 @@
       "series": "Other",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Inflection: Inflection 3 Pi",
@@ -3284,7 +3284,7 @@
       "series": "Other",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Cohere: Command R+ (08-2024)",
@@ -3293,7 +3293,7 @@
       "series": "Other",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o (2024-08-06)",
@@ -3302,7 +3302,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o",
@@ -3311,7 +3311,7 @@
       "series": "GPT",
       "input_price_cny": 18.12,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3320,7 +3320,7 @@
       "series": "GPT",
       "input_price_cny": 18.13,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "GPT-4o",
@@ -3329,7 +3329,7 @@
       "series": "GPT",
       "input_price_cny": 18.5,
       "output_price_cny": 74.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3338,7 +3338,7 @@
       "series": "Claude",
       "input_price_cny": 21.0,
       "output_price_cny": 106.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3347,7 +3347,7 @@
       "series": "Claude",
       "input_price_cny": 21.5,
       "output_price_cny": 107.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3356,7 +3356,7 @@
       "series": "Claude",
       "input_price_cny": 21.5,
       "output_price_cny": 107.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3365,7 +3365,7 @@
       "series": "Claude",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3374,7 +3374,7 @@
       "series": "Claude",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic Claude Sonnet Latest",
@@ -3383,7 +3383,7 @@
       "series": "Claude",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Sonnet 4.6",
@@ -3392,7 +3392,7 @@
       "series": "Claude",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Perplexity: Sonar Pro Search",
@@ -3401,7 +3401,7 @@
       "series": "Other",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Sonnet 4.5",
@@ -3410,7 +3410,7 @@
       "series": "Claude",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Sonnet 4",
@@ -3419,7 +3419,7 @@
       "series": "Claude",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Perplexity: Sonar Pro",
@@ -3428,7 +3428,7 @@
       "series": "Other",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Sao10K: Llama 3.1 70B Hanami x1",
@@ -3437,7 +3437,7 @@
       "series": "Llama",
       "input_price_cny": 21.75,
       "output_price_cny": 21.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Magnum v4 72B",
@@ -3446,7 +3446,7 @@
       "series": "Other",
       "input_price_cny": 21.75,
       "output_price_cny": 36.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-3.5 Turbo 16k",
@@ -3455,7 +3455,7 @@
       "series": "GPT",
       "input_price_cny": 21.75,
       "output_price_cny": 29.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3464,7 +3464,7 @@
       "series": "Claude",
       "input_price_cny": 21.75,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3473,7 +3473,7 @@
       "series": "Claude",
       "input_price_cny": 21.8,
       "output_price_cny": 109.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3482,7 +3482,7 @@
       "series": "Claude",
       "input_price_cny": 21.9,
       "output_price_cny": 109.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3491,7 +3491,7 @@
       "series": "Claude",
       "input_price_cny": 22.0,
       "output_price_cny": 110.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3500,7 +3500,7 @@
       "series": "Claude",
       "input_price_cny": 22.0,
       "output_price_cny": 110.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3509,7 +3509,7 @@
       "series": "Claude",
       "input_price_cny": 22.2,
       "output_price_cny": 111.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3518,7 +3518,7 @@
       "series": "Claude",
       "input_price_cny": 22.5,
       "output_price_cny": 111.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Sonnet 4.6",
@@ -3527,7 +3527,7 @@
       "series": "Claude",
       "input_price_cny": 23.0,
       "output_price_cny": 112.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "AionLabs: Aion-1.0",
@@ -3536,7 +3536,7 @@
       "series": "Other",
       "input_price_cny": 29.0,
       "output_price_cny": 58.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.8",
@@ -3545,7 +3545,7 @@
       "series": "Claude",
       "input_price_cny": 36.25,
       "output_price_cny": 181.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT Chat Latest",
@@ -3554,7 +3554,7 @@
       "series": "GPT",
       "input_price_cny": 36.25,
       "output_price_cny": 217.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI GPT Latest",
@@ -3563,7 +3563,7 @@
       "series": "GPT",
       "input_price_cny": 36.25,
       "output_price_cny": 217.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.5",
@@ -3572,7 +3572,7 @@
       "series": "GPT",
       "input_price_cny": 36.25,
       "output_price_cny": 217.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus Latest",
@@ -3581,7 +3581,7 @@
       "series": "Claude",
       "input_price_cny": 36.25,
       "output_price_cny": 181.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.7",
@@ -3590,7 +3590,7 @@
       "series": "Claude",
       "input_price_cny": 36.25,
       "output_price_cny": 181.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.6",
@@ -3599,7 +3599,7 @@
       "series": "Claude",
       "input_price_cny": 36.25,
       "output_price_cny": 181.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.5",
@@ -3608,7 +3608,7 @@
       "series": "Claude",
       "input_price_cny": 36.25,
       "output_price_cny": 181.25,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4o (2024-05-13)",
@@ -3617,7 +3617,7 @@
       "series": "GPT",
       "input_price_cny": 36.25,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.4 Image 2",
@@ -3626,7 +3626,7 @@
       "series": "GPT",
       "input_price_cny": 58.0,
       "output_price_cny": 108.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Fable Latest",
@@ -3635,7 +3635,7 @@
       "series": "Claude",
       "input_price_cny": 72.5,
       "output_price_cny": 362.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Fable 5",
@@ -3644,7 +3644,7 @@
       "series": "Claude",
       "input_price_cny": 72.5,
       "output_price_cny": 362.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.8 (Fast)",
@@ -3653,7 +3653,7 @@
       "series": "Claude",
       "input_price_cny": 72.5,
       "output_price_cny": 362.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5 Image",
@@ -3662,7 +3662,7 @@
       "series": "GPT",
       "input_price_cny": 72.5,
       "output_price_cny": 72.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o3 Deep Research",
@@ -3671,7 +3671,7 @@
       "series": "GPT",
       "input_price_cny": 72.5,
       "output_price_cny": 290.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4 Turbo",
@@ -3680,7 +3680,7 @@
       "series": "GPT",
       "input_price_cny": 72.5,
       "output_price_cny": 217.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4 Turbo Preview",
@@ -3689,7 +3689,7 @@
       "series": "GPT",
       "input_price_cny": 72.5,
       "output_price_cny": 217.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3698,7 +3698,7 @@
       "series": "Claude",
       "input_price_cny": 99.0,
       "output_price_cny": 498.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3707,7 +3707,7 @@
       "series": "Claude",
       "input_price_cny": 100.0,
       "output_price_cny": 505.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3716,7 +3716,7 @@
       "series": "Claude",
       "input_price_cny": 100.0,
       "output_price_cny": 500.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3725,7 +3725,7 @@
       "series": "Claude",
       "input_price_cny": 101.0,
       "output_price_cny": 510.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3734,7 +3734,7 @@
       "series": "Claude",
       "input_price_cny": 102.0,
       "output_price_cny": 515.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3743,7 +3743,7 @@
       "series": "Claude",
       "input_price_cny": 103.0,
       "output_price_cny": 520.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3752,7 +3752,7 @@
       "series": "Claude",
       "input_price_cny": 104.0,
       "output_price_cny": 525.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3761,7 +3761,7 @@
       "series": "Claude",
       "input_price_cny": 105.0,
       "output_price_cny": 530.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3770,7 +3770,7 @@
       "series": "Claude",
       "input_price_cny": 105.0,
       "output_price_cny": 530.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3779,7 +3779,7 @@
       "series": "Claude",
       "input_price_cny": 106.0,
       "output_price_cny": 535.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3788,7 +3788,7 @@
       "series": "Claude",
       "input_price_cny": 107.0,
       "output_price_cny": 538.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3797,7 +3797,7 @@
       "series": "Claude",
       "input_price_cny": 108.0,
       "output_price_cny": 540.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3806,7 +3806,7 @@
       "series": "Claude",
       "input_price_cny": 108.0,
       "output_price_cny": 540.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3815,7 +3815,7 @@
       "series": "Claude",
       "input_price_cny": 108.75,
       "output_price_cny": 543.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3824,7 +3824,7 @@
       "series": "Claude",
       "input_price_cny": 108.75,
       "output_price_cny": 543.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5 Pro",
@@ -3833,7 +3833,7 @@
       "series": "GPT",
       "input_price_cny": 108.75,
       "output_price_cny": 870.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.1",
@@ -3842,7 +3842,7 @@
       "series": "Claude",
       "input_price_cny": 108.75,
       "output_price_cny": 543.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4",
@@ -3851,7 +3851,7 @@
       "series": "Claude",
       "input_price_cny": 108.75,
       "output_price_cny": 543.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o1",
@@ -3860,7 +3860,7 @@
       "series": "GPT",
       "input_price_cny": 108.75,
       "output_price_cny": 435.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3869,7 +3869,7 @@
       "series": "Claude",
       "input_price_cny": 108.75,
       "output_price_cny": 543.75,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3878,7 +3878,7 @@
       "series": "Claude",
       "input_price_cny": 109.0,
       "output_price_cny": 548.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3887,7 +3887,7 @@
       "series": "Claude",
       "input_price_cny": 109.5,
       "output_price_cny": 546.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3896,7 +3896,7 @@
       "series": "Claude",
       "input_price_cny": 110.0,
       "output_price_cny": 545.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3905,7 +3905,7 @@
       "series": "Claude",
       "input_price_cny": 110.0,
       "output_price_cny": 548.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3914,7 +3914,7 @@
       "series": "Claude",
       "input_price_cny": 111.0,
       "output_price_cny": 552.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3923,7 +3923,7 @@
       "series": "Claude",
       "input_price_cny": 112.0,
       "output_price_cny": 550.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Claude Opus 4.7",
@@ -3932,7 +3932,7 @@
       "series": "Claude",
       "input_price_cny": 115.0,
       "output_price_cny": 560.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o3 Pro",
@@ -3941,7 +3941,7 @@
       "series": "GPT",
       "input_price_cny": 145.0,
       "output_price_cny": 580.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.2 Pro",
@@ -3950,7 +3950,7 @@
       "series": "GPT",
       "input_price_cny": 152.25,
       "output_price_cny": 1218.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.7 (Fast)",
@@ -3959,7 +3959,7 @@
       "series": "Claude",
       "input_price_cny": 217.5,
       "output_price_cny": 1087.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.5 Pro",
@@ -3968,7 +3968,7 @@
       "series": "GPT",
       "input_price_cny": 217.5,
       "output_price_cny": 1305.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "Anthropic: Claude Opus 4.6 (Fast)",
@@ -3977,7 +3977,7 @@
       "series": "Claude",
       "input_price_cny": 217.5,
       "output_price_cny": 1087.5,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-5.4 Pro",
@@ -3986,7 +3986,7 @@
       "series": "GPT",
       "input_price_cny": 217.5,
       "output_price_cny": 1305.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: GPT-4",
@@ -3995,7 +3995,7 @@
       "series": "GPT",
       "input_price_cny": 217.5,
       "output_price_cny": 435.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     },
     {
       "model_name": "OpenAI: o1-pro",
@@ -4004,7 +4004,7 @@
       "series": "GPT",
       "input_price_cny": 1087.5,
       "output_price_cny": 4350.0,
-      "last_updated": "2026-06-19T15:44:56Z"
+      "last_updated": "2026-06-19T20:07:23Z"
     }
   ]
 }
